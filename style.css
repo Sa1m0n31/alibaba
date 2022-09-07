@@ -379,7 +379,9 @@ a, button {
     width: 37%;
 }
 
-.section {
+.section:not(.section--points, .section--service, .section--noscroll) {
+    overflow-y: visible;
+    overflow-x: hidden;
     margin: 50px 0;
 }
 
@@ -441,7 +443,7 @@ a, button {
 }
 
 .section--grey {
-    margin-bottom: 0;
+    margin-bottom: 0 !important;
     background: #F5F5F5;
     padding: 80px 0;
 }
@@ -853,4 +855,241 @@ a, button {
     margin-left: 0;
     transform: none;
     margin-top: 50px;
+}
+
+.section--map {
+    padding-bottom: 250px;
+    background: linear-gradient(33.22deg, #304B5C 14.93%, #486A80 91.41%);
+}
+
+.section--map__header {
+    color: #fff;
+    font-size: 64px;
+    max-width: 390px;
+    position: relative;
+    padding-top: 200px;
+}
+
+.section--map__header::before {
+    content: "";
+    position: absolute;
+    top: -40px;
+    transform: translateY(100%);
+    left: 25%;
+    height: 100px;
+    width: 2px;
+    background: #fff;
+}
+
+.map__text {
+    color: #fff;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.map__person {
+    background: transparent;
+    position: relative;
+    margin: 40px 0 0;
+    transform: none;
+}
+
+.map__person::after {
+    content: "";
+    position: absolute;
+    bottom: -200px;
+    left: 25%;
+    width: 2px;
+    height: 150px;
+    background: #fff;
+}
+
+.map__left {
+    width: 35%;
+}
+
+.mapWrapper {
+    margin-top: 50px;
+    width: 60%;
+}
+
+.blogHeader {
+    background: #304B5C;
+    padding: 30px 30px 50px;
+    color: #fff;
+    font-size: 48px;
+    position: relative;
+    margin-top: 120px;
+    max-width: 650px;
+}
+
+.blogHeader::after {
+    content: "";
+    position: absolute;
+    bottom: 25px;
+    left: 30px;
+    width: 135px;
+    height: 6px;
+    background: #fff;
+}
+
+.blogHeader::before {
+    content: "";
+    width: 1500px;
+    height: 100%;
+    background: #304B5C;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+}
+
+.blog {
+    flex-wrap: wrap;
+    gap: 50px;
+    max-width: 1000px;
+}
+
+.blog__item {
+    width: 46%;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.blog__item figure {
+    width: 100%;
+    height: 225px;
+}
+
+.blog__item__header {
+    color: #323C46;
+    font-size: 28px;
+    padding: 10px 20px 0;
+    margin-top: 10px;
+}
+
+.blog__item__text {
+    padding: 20px;
+    color: #ACACAC;
+    font-size: 16px;
+}
+
+.blog__item__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto 25px;
+    padding: 10px 30px;
+    background: #486A80;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    height: 61px;
+    width: 250px;
+    max-width: 100%;
+}
+
+.blog {
+    margin-top: -200px;
+}
+
+.btn--blog {
+    max-width: 316px;
+    margin: 40px auto 20px;
+    font-size: 21px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.references__item .img--top {
+    width: 63px;
+    margin-bottom: 30px;
+}
+
+.references__item {
+    border-radius: 10px;
+    box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.15);
+    padding: 25px;
+    width: 30%;
+}
+
+.references__item__text p {
+    color: #939393;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.img--stars {
+    max-width: 60%;
+    margin-top: 40px;
+}
+
+.references__item--center {
+    background: #354C5B;
+}
+
+.references__item--center .img--stars,
+.references__item--center .img--top {
+    filter: brightness(0) invert(1);
+}
+
+.references__item--center .references__item__text p {
+    color: #fff;
+}
+
+.landing__buttons--references {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto 0;
+}
+
+.section--references {
+    margin-top: 70px;
+}
+
+.section .landing__buttons--references .btn--landing--white {
+    transform: none;
+    margin: 0 0 0 20px;
+}
+
+.landing__buttons--references .btn--landing:first-of-type {
+    width: 60%;
+}
+
+.landing__buttons--references .btn--landing {
+    height: 70px;
+}
+
+.landing__buttons--references .btn--landing:hover {
+    transform: translateY(-3px);
+}
+
+.bigHeader,
+.smallHeader {
+    position: relative;
+    z-index: 3;
+    max-width: 800px;
+}
+
+.bigHeader {
+    text-align: center;
+    font-size: 64px;
+    color: #fff;
+    margin: 200px auto 50px;
+}
+
+.smallHeader {
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+    color: #fff;
+}
+
+.serviceCenter--3 {
+    padding-bottom: 300px;
 }
