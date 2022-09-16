@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d973965-f7bb-4483-9a85-edd9ee971d92" name="Default Changelist" comment="" />
+    <list default="true" id="5d973965-f7bb-4483-9a85-edd9ee971d92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/branza-logistyczna.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/allegro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/check-background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contact-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/dariusz.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/fb-footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/it-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/it-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/it-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/it-point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/linkedin-footer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo-a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/mail-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/monika.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/nip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sieci-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sieci-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sieci-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/trans-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/trans-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/trans-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/polityka-prywatnosci.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/producenci-urzadzen-it.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sieci-handlowe-i-uslugowe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,11 +57,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2EBY5wLvxvhCk21r8ntrzYRzAWr" />
   <component name="ProjectViewState">
@@ -25,13 +75,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../annavinbotti" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\alibaba" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\alibaba\img" />
+      <recent name="check" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -43,16 +95,31 @@
       <option name="presentableId" value="Default" />
       <updated>1662070277010</updated>
       <workItem from="1662070278147" duration="5346000" />
+      <workItem from="1662561508125" duration="14277000" />
+      <workItem from="1662629638488" duration="96000" />
+      <workItem from="1663353341639" duration="11707000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1662113721676">
+    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1662629734295">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1662113721676" />
+    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1662629734295" />
   </component>
 </project>

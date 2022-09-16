@@ -30,26 +30,37 @@
         </div>
 
         <div class="topMenu w flex">
-            <a href="/" class="topMenu__logo">
+            <a href="./index.html" class="topMenu__logo">
                 <img class="img" src="./img/logo.svg" alt="logo" />
             </a>
             <menu class="topMenu__menu flex">
-                <a href="/" class="topMenu__menu__item">
+                <a href="./index.html" class="topMenu__menu__item">
                     Start
                 </a>
-                <a href="/" class="topMenu__menu__item">
+                <a href="./index.html#o-firmie" class="topMenu__menu__item">
                     O firmie
                 </a>
-                <a href="/" class="topMenu__menu__item">
+                <span class="topMenu__menu__item">
                     Centrum serwisowe
-                </a>
-                <a href="/" class="topMenu__menu__item">
+                    <span class="topMenu__menu__item__dropdown">
+                        <a href="./sieci-handlowe-i-uslugowe.html" class="topMenu__menu__item">
+                            Sieci handlowe i usługowe
+                        </a>
+                        <a href="./producenci-urzadzen-it.html" class="topMenu__menu__item">
+                            Producenci urządzeń IT
+                        </a>
+                        <a href="./branza-logistyczna.html" class="topMenu__menu__item">
+                            Branża logistyczna
+                        </a>
+                    </span>
+                </span>
+                <a href="./index.html#uslugi-handlowe" class="topMenu__menu__item">
                     Usługi handlowe
                 </a>
-                <a href="/" class="topMenu__menu__item">
+                <a href="./index.html#blog" class="topMenu__menu__item">
                     Blog
                 </a>
-                <a href="/" class="topMenu__menu__item">
+                <a href="./index.html#kontakt" class="topMenu__menu__item">
                     Kontakt
                 </a>
             </menu>
@@ -133,7 +144,7 @@
         </main>
     </div>
 
-    <div class="aboutUs">
+    <div class="aboutUs" id="o-firmie">
         <div class="w">
             <h2 class="aboutUs__header">
                 Poznaj naszą firmę
@@ -170,7 +181,7 @@
         </div>
     </div>
 
-    <div class="serviceCenter">
+    <div class="serviceCenter" id="centrum-serwisowe">
         <img class="img" src="./img/centrum-serwisowe.png" alt="centrum-serwisowe" />
         <div class="w">
             <h3 class="serviceCenter__header">
@@ -226,7 +237,7 @@
         </div>
     </div>
 
-    <div class="section section--service">
+    <div class="section section--service" id="uslugi-handlowe">
         <div class="w">
             <h3 class="section__header">
                 Usługi handlowe
@@ -274,13 +285,13 @@
                 </h4>
             </div>
             <div class="section__icons__item">
-                <img class="img" src="./img/icon1.png" alt="icon" />
+                <img class="img" src="./img/icon2.png" alt="icon" />
                 <h4 class="section__icons__item__text">
                     Wyłącznie oryginalne produkty.
                 </h4>
             </div>
             <div class="section__icons__item">
-                <img class="img" src="./img/icon1.png" alt="icon" />
+                <img class="img" src="./img/icon3.png" alt="icon" />
                 <h4 class="section__icons__item__text">
                     Dobór optymalnych rozwiązań.
                 </h4>
@@ -570,6 +581,7 @@
     </div>
 
     <div class="blog w flex">
+        <span id="blog"></span>
         <div class="blog__item">
             <figure>
                 <img class="img" src="./img/blog.png" alt="blog" />
@@ -708,8 +720,239 @@
                 Cieszymy się że możemy wypełnic swoje zadanie
             </h4>
         </div>
-
     </div>
+
+    <div class="faq">
+        <div class="w">
+            <h3 class="faq__header">
+                Najczęściej zadawane pytania
+            </h3>
+            <div class="faq__main">
+                <div class="faq__item">
+                    <h4 class="faq__item__header">
+                        Jakie posiadacie autoryzacje serwisowe?
+                    </h4>
+                    <p class="faq__item__text">
+                        • DELL – komputery PC, Serwery i Macierze<br/>
+                        • HP - komputery PC<br/>
+                        • ELZAB – Urządzenia fiskalne<br/>
+                        • POSNET – Urządzenia fiskalne<br/>
+                        • NOVITUS – Urządzenia fiskalne<br/>
+                    </p>
+                </div>
+                <div class="faq__item">
+                    <h4 class="faq__item__header">
+                        Jakie czasy SLA proponujecie? Czy czas SLA to czas naprawy?
+                    </h4>
+                    <p class="faq__item__text">
+                        Czas reakcji lub naprawy dobierany jest indywidualnie do każdego projektu. Część urządzeń wymaga interwencji błyskawicznej np. Serwery. Inne jak np. automaty do wydawania różnych towarów posiadają kilkudniowy czas SLA.
+                        Minimalny czas reakcji to 4 godziny od przyjęcia zgłoszenia. Należy rozgraniczyć czas naprawy od czasu reakcji, to dwa zupełnie inne parametry. Naprawa oznacza usunięcie awarii i przywrócenie sprawności.
+                    </p>
+                </div>
+                <div class="faq__item">
+                    <h4 class="faq__item__header">
+                        Czy macie Helpdesk?
+                    </h4>
+                    <p class="faq__item__text">
+                        Tak posiadamy zespół ludzi którzy na bieżąco przyjmują zgłoszenia, dokonują kwalifikacji i rozwiązują problemy które można załatwić zdalnie. W różnych projektach pełnimy różne rolę.
+                        Często klienci posiadają włąsne zespoły, my jesteśmy w takim przypadku serwisem terenowym.
+                    </p>
+                </div>
+                <div class="faq__item">
+                    <h4 class="faq__item__header">
+                        Jak mogę zgłosić awarię?
+                    </h4>
+                    <p class="faq__item__text">
+                        Posiadamy system zgłoszeniowy SDesk - https://sdesk.alibaba.pl/ za pomocą którego każdy klient z którym mamy podpisaną umowę może zgłosić awarię. Dodatkowo zgłoszenia przyjmowane są drogą e-mailową oraz telefonicznie.
+                    </p>
+                </div>
+                <div class="faq__item">
+                    <h4 class="faq__item__header">
+                        Jakie regiony obsługujecie?
+                    </h4>
+                    <p class="faq__item__text">
+                        Posiadamy sieć oddziałów i serwisantów którzy pracują na terenie całej Polski, Czech oraz Słowacji.
+                        Usługi świadczone są na tym samym poziomie, z tym samym czasem SLA w każdym miejscu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="experts">
+        <h3 class="experts__header w">
+            Skontaktuj się<br/>
+            z naszymi ekspertami
+        </h3>
+        <div class="experts__main flex">
+            <div class="experts__item">
+                <div class="experts__item__top">
+                    <figure class="experts__item__figure">
+                        <img class="img" src="./img/monika.png" alt="monika" />
+                    </figure>
+                    <h4 class="experts__item__name">
+                        Monika Rydyger
+                    </h4>
+                    <h5 class="experts__item__position">
+                        Usługi handlowe
+                    </h5>
+                </div>
+                <div class="experts__item__bottom">
+                    <a class="experts__item__bottom__item" href="mailto:monika.rydyger@alibaba.pl">
+                        <img class="img" src="./img/mail-icon.png" alt="mail" />
+                        <span>
+                            monika.rydyger@alibaba.pl
+                        </span>
+                    </a>
+                    <a class="experts__item__bottom__item" href="tel:+48510088640">
+                        <img class="img" src="./img/contact-icon.png" alt="mail" />
+                        <span>
+                            +48 510 088 640
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="experts__item experts__item--middle">
+                <div class="experts__item__top">
+                    <figure class="experts__item__figure">
+                        <img class="img" src="./img/dariusz.png" alt="monika" />
+                    </figure>
+                    <h4 class="experts__item__name">
+                        Dariusz Padyjasek
+                    </h4>
+                    <h5 class="experts__item__position">
+                        Centrum serwisowe
+                    </h5>
+                </div>
+                <div class="experts__item__bottom">
+                    <a class="experts__item__bottom__item" href="mailto:dariusz.padyjasek@alibaba.pl">
+                        <img class="img" src="./img/mail-icon.png" alt="mail" />
+                        <span>
+                            dariusz.padyjasek@alibaba.pl
+                        </span>
+                    </a>
+                    <a class="experts__item__bottom__item" href="tel:+48510088644">
+                        <img class="img" src="./img/contact-icon.png" alt="mail" />
+                        <span>
+                            +48 510 088 644
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="experts__item">
+                <div class="experts__item__top">
+                    <figure class="experts__item__figure">
+                        <img class="img" src="./img/logo-a.png" alt="monika" />
+                    </figure>
+                    <h4 class="experts__item__name">
+                        Obsługa klienta
+                    </h4>
+                    <h5 class="experts__item__position">
+                        Centrala
+                    </h5>
+                </div>
+                <div class="experts__item__bottom">
+                    <a class="experts__item__bottom__item" href="mailto:info@alibaba.pl">
+                        <img class="img" src="./img/mail-icon.png" alt="mail" />
+                        <span>
+                            info@alibaba.pl
+                        </span>
+                    </a>
+                    <a class="experts__item__bottom__item" href="tel:+48422059090">
+                        <img class="img" src="./img/contact-icon.png" alt="mail" />
+                        <span>
+                            (42)  205 90 90
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="kontakt">
+        <div class="w">
+            <h3 class="contact__header">
+                Formularz kontaktowy
+            </h3>
+            <div class="contact__form">
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="w flex">
+            <div class="footer__col">
+                <a href="./index.html" class="footer__col__logo">
+                    <img class="img" src="./img/logo-alibaba.png" alt="alibaba" />
+                </a>
+                <h6 class="footer__copyright">
+                    Copyright@ Alibaba Serwis techniczny
+                </h6>
+            </div>
+            <div class="footer__col">
+                <h5 class="footer__col__header">
+                    Nawigacja strony
+                </h5>
+                <ul class="footer__col__menu">
+                    <li><a href="./index.html">Start</a></li>
+                    <li><a href="./index.html#o-firmie">O firmie</a></li>
+                    <li><a href="./index.html#centrum-serwisowe">Centrum serwisowe</a></li>
+                    <li><a href="./sieci-handlowe-i-uslugowe.html">Sieci handlowe i usługowe</a></li>
+                    <li><a href="./producenci-urzadzen-it.html">Producenci IT</a></li>
+                    <li><a href="./branza-logistyczna.html">Branża logistyczna</a></li>
+                    <li><a href="./index.html#uslugi-handlowe">Uslugi handlowe</a></li>
+                    <li><a href="./index.html#blog">Blog</a></li>
+                    <li><a href="./index.html#kontakt">Kontakt</a></li>
+                    <li><a href="./polityka-prywatnosci.html">Polityka prywatności</a></li>
+                </ul>
+            </div>
+            <div class="footer__col">
+                <h5 class="footer__col__header">
+                    Kontakt
+                </h5>
+                <a class="footer__col__item" href="mailto:info@alibaba.pl">
+                    <img class="img" src="./img/mail-icon.png" alt="mail" />
+                    <span>
+                        info@alibaba.pl
+                    </span>
+                </a>
+                <a class="footer__col__item" href="tel:+48422059090">
+                    <img class="img" src="./img/contact-icon.png" alt="mail" />
+                    <span>
+                        (42)  205 90 90
+                    </span>
+                </a>
+                <div class="footer__col__item">
+                    <img class="img" src="./img/nip.png" alt="mail" />
+                    <span>
+                        NIP: 726-253-30-37
+                    </span>
+                </div>
+                <div class="footer__col__item">
+                    <img class="img" src="./img/location.png" alt="mail" />
+                    <span>
+                        Adres: Św. Teresy 91,<br/>
+                        91 - 341 Łódż
+                    </span>
+                </div>
+
+                <div class="footer__col__bottom flex">
+                    <a href="https://facebook.com" target="_blank" class="footer__col__bottom__link">
+                        <img class="img" src="./img/fb-footer.png" alt="facebook" />
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="footer__col__bottom__link">
+                        <img class="img" src="./img/linkedin-footer.png" alt="facebook" />
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="footer__col__bottom__link footer__col__bottom__link--allegro">
+                        <img class="img" src="./img/allegro.png" alt="facebook" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
 <script src="./main.js"></script>
 </body>
