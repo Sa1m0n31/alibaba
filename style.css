@@ -1174,8 +1174,9 @@ span.topMenu__menu__item::after {
     color: #fff;
 }
 
+.d-900,
 .d-mobile {
-    display: none;
+    display: none !important;
 }
 
 .serviceCenter--3 {

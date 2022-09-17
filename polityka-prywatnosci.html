@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Alibaba - sieci handlowe i usługowe</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./mobile.css" />
 </head>
 <body>
 <div class="container">
@@ -29,10 +30,56 @@
             </a>
         </div>
 
+        <div class="mobileMenu d-mobile">
+            <div class="mobileMenu__inner">
+                <a href="./index.html" class="topMenu__logo">
+                    <img class="img" src="./img/logo.svg" alt="logo" />
+                </a>
+
+                <button class="topMenu__menuBtn d-mobile" onclick="closeMobileMenu()">
+                    <img class="img" src="./img/mobile-menuClose.png" alt="menu" />
+                </button>
+
+                <div class="mobileMenu__main">
+                    <div class="mobileMenu__list">
+                        <ul class="footer__col__menu">
+                            <li><a href="./index.html">Start</a></li>
+                            <li><a href="./index.html#o-firmie">O firmie</a></li>
+                            <li><a href="./index.html#centrum-serwisowe">Centrum serwisowe</a></li>
+                            <li><a href="./sieci-handlowe-i-uslugowe.html">Sieci handlowe i usługowe</a></li>
+                            <li><a href="./producenci-urzadzen-it.html">Producenci IT</a></li>
+                            <li><a href="./branza-logistyczna.html">Branża logistyczna</a></li>
+                            <li><a href="./index.html#uslugi-handlowe">Uslugi handlowe</a></li>
+                            <li><a href="./index.html#blog">Blog</a></li>
+                            <li><a href="./index.html#kontakt">Kontakt</a></li>
+                            <li><a href="./polityka-prywatnosci.html">Polityka prywatności</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__col__bottom flex">
+                    <a href="https://facebook.com" target="_blank" class="footer__col__bottom__link">
+                        <img class="img" src="./img/fb-footer.png" alt="facebook" />
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="footer__col__bottom__link">
+                        <img class="img" src="./img/linkedin-footer.png" alt="facebook" />
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="footer__col__bottom__link footer__col__bottom__link--allegro">
+                        <img class="img" src="./img/allegro.png" alt="facebook" />
+                    </a>
+                </div>
+            </div>
+        </div>
+
         <div class="topMenu w flex">
             <a href="./index.html" class="topMenu__logo">
                 <img class="img" src="./img/logo.svg" alt="logo" />
             </a>
+
+            <button class="topMenu__menuBtn d-mobile" onclick="openMobileMenu()">
+                <img class="img" src="./img/mobile-menu.png" alt="menu" />
+            </button>
+
             <menu class="topMenu__menu flex">
                 <a href="./index.html" class="topMenu__menu__item">
                     Start

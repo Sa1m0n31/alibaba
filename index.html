@@ -31,41 +31,43 @@
         </div>
 
         <div class="mobileMenu d-mobile">
-            <a href="./index.html" class="topMenu__logo">
-                <img class="img" src="./img/logo.svg" alt="logo" />
-            </a>
+            <div class="mobileMenu__inner">
+                <a href="./index.html" class="topMenu__logo">
+                    <img class="img" src="./img/logo.svg" alt="logo" />
+                </a>
 
-            <button class="topMenu__menuBtn d-mobile" onclick="closeMobileMenu()">
-                <img class="img" src="./img/mobile-menuClose.png" alt="menu" />
-            </button>
+                <button class="topMenu__menuBtn d-mobile" onclick="closeMobileMenu()">
+                    <img class="img" src="./img/mobile-menuClose.png" alt="menu" />
+                </button>
 
-            <div class="mobileMenu__main">
-                <div class="mobileMenu__list">
-                    <ul class="footer__col__menu">
-                        <li><a href="./index.html">Start</a></li>
-                        <li><a href="./index.html#o-firmie">O firmie</a></li>
-                        <li><a href="./index.html#centrum-serwisowe">Centrum serwisowe</a></li>
-                        <li><a href="./sieci-handlowe-i-uslugowe.html">Sieci handlowe i usługowe</a></li>
-                        <li><a href="./producenci-urzadzen-it.html">Producenci IT</a></li>
-                        <li><a href="./branza-logistyczna.html">Branża logistyczna</a></li>
-                        <li><a href="./index.html#uslugi-handlowe">Uslugi handlowe</a></li>
-                        <li><a href="./index.html#blog">Blog</a></li>
-                        <li><a href="./index.html#kontakt">Kontakt</a></li>
-                        <li><a href="./polityka-prywatnosci.html">Polityka prywatności</a></li>
-                    </ul>
+                <div class="mobileMenu__main">
+                    <div class="mobileMenu__list">
+                        <ul class="footer__col__menu">
+                            <li><a href="./index.html">Start</a></li>
+                            <li><a href="./index.html#o-firmie">O firmie</a></li>
+                            <li><a href="./index.html#centrum-serwisowe">Centrum serwisowe</a></li>
+                            <li><a href="./sieci-handlowe-i-uslugowe.html">Sieci handlowe i usługowe</a></li>
+                            <li><a href="./producenci-urzadzen-it.html">Producenci IT</a></li>
+                            <li><a href="./branza-logistyczna.html">Branża logistyczna</a></li>
+                            <li><a href="./index.html#uslugi-handlowe">Uslugi handlowe</a></li>
+                            <li><a href="./index.html#blog">Blog</a></li>
+                            <li><a href="./index.html#kontakt">Kontakt</a></li>
+                            <li><a href="./polityka-prywatnosci.html">Polityka prywatności</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
 
-            <div class="footer__col__bottom flex">
-                <a href="https://facebook.com" target="_blank" class="footer__col__bottom__link">
-                    <img class="img" src="./img/fb-footer.png" alt="facebook" />
-                </a>
-                <a href="https://facebook.com" target="_blank" class="footer__col__bottom__link">
-                    <img class="img" src="./img/linkedin-footer.png" alt="facebook" />
-                </a>
-                <a href="https://facebook.com" target="_blank" class="footer__col__bottom__link footer__col__bottom__link--allegro">
-                    <img class="img" src="./img/allegro.png" alt="facebook" />
-                </a>
+                <div class="footer__col__bottom flex">
+                    <a href="https://facebook.com" target="_blank" class="footer__col__bottom__link">
+                        <img class="img" src="./img/fb-footer.png" alt="facebook" />
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="footer__col__bottom__link">
+                        <img class="img" src="./img/linkedin-footer.png" alt="facebook" />
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="footer__col__bottom__link footer__col__bottom__link--allegro">
+                        <img class="img" src="./img/allegro.png" alt="facebook" />
+                    </a>
+                </div>
             </div>
         </div>
 
@@ -939,6 +941,16 @@
                             Nazwa firmy
                             <input class="input" />
                         </label>
+
+                        <label class="contact__form__label d-900">
+                            Email
+                            <input class="input" />
+                        </label>
+                        <label class="contact__form__label d-900">
+                            Temat
+                            <input class="input" />
+                        </label>
+
                         <label class="contact__form__label">
                             Wiadomość
                             <textarea class="input input--textarea"></textarea>
