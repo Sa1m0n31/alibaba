@@ -6,7 +6,8 @@
 }
 
 html {
-    scroll-behavior: smooth;
+    /* TODO */
+    /*scroll-behavior: smooth;*/
 }
 
 .flex {
@@ -19,6 +20,10 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.section__header--mobile {
+    display: none;
 }
 
 .abs {
@@ -1030,12 +1035,13 @@ span.topMenu__menu__item::after {
 
 .blog__item {
     width: 46%;
+    background: #fff;
     box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
 .blog__item figure {
     width: 100%;
-    height: 225px;
+    height: auto;
 }
 
 .blog__item__header {
@@ -1168,8 +1174,31 @@ span.topMenu__menu__item::after {
     color: #fff;
 }
 
+.d-mobile {
+    display: none;
+}
+
 .serviceCenter--3 {
-    padding-bottom: 300px;
+    position: relative;
+    padding-bottom: 0;
+}
+
+.serviceCenter--3 > .img {
+    position: relative;
+}
+
+.serviceCenter--3 > .w {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+.serviceCenter--3 .bigHeader {
+    margin-top: 0;
 }
 
 .faq__header {
@@ -1651,4 +1680,69 @@ span.topMenu__menu__item::after {
 .page__header--terms .page__header__header {
     font-size: 48px;
     color: #304B5C;
+}
+
+.contact__form {
+    margin: 80px auto 50px;
+    max-width: 1000px;
+    position: relative;
+}
+
+.contact__info {
+    position: absolute;
+    bottom: 12%;
+    right: 8%;
+}
+
+.contact__form__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact__from > * {
+    width: 45%;
+}
+
+.contact__form__label {
+    width: 100%;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: #304B5C;
+    display: block;
+}
+
+.input {
+    border: none;
+    border-bottom: 2px solid #304B5C;
+    width: 100%;
+    outline: none !important;
+    padding: 10px 0;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.input--textarea {
+    resize: none;
+    height: 150px;
+}
+
+.btn--formSubmit {
+    width: 100%;
+    max-width: 300px;
+}
+
+.contact__form__checkbox input {
+    margin-right: 10px;
+}
+
+.contact__form__checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    color: #9f9f9f;
+    margin-top: 25px;
 }
