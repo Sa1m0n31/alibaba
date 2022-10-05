@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Alibaba</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./mobile.css" />
 </head>
@@ -131,7 +132,7 @@
                 </div>
                 <div class="topMenu__contacts__item flex">
                     <figure class="topMenu__contacts__item__figure">
-                        <img class="img" src="./img/contact2.png" alt="kontakt" />
+                        <img class="img" src="./img/monika.png" alt="kontakt" />
                     </figure>
                     <div class="topMenu__contacts__item__content">
                         <h3 class="topMenu__contacts__item__header">
@@ -140,7 +141,7 @@
                         <p class="topMenu__contacts__item__post">
                             Usługi handlowe
                             <span class="topMenu__contacts__item__phoneNumber">
-                                +48 359 239 329
+                                +48 508 088 640
                             </span>
                         </p>
                     </div>
@@ -154,13 +155,13 @@
                     Profesjonalne wsparcie
                 </h1>
                 <div class="landing__main__content">
-                    <p>
+                    <p class="nojustify">
                         Zapewniamy kompleksowe wsparcie klienta w zakresie serwisu, zarządzania i konserwacji szeroko pojętej infrastruktury informatycznej.
                     </p>
-                    <p>
+                    <p class="nojustify">
                         Specjalizujemy się w usługach serwisowych i instalacyjnych na miejscu u klienta.
                     </p>
-                    <p>
+                    <p class="nojustify">
                         Naszym celem jest zapewnienie bezpieczeństwa i ciągłości pracy urządzeń i systemów tak aby nasi klienci mogli skupić się na rozwijaniu swojego biznesu.
                     </p>
                 </div>
@@ -178,14 +179,14 @@
 
             <div class="landing__main__right">
                 <figure class="landing__main__right__img1">
-                    <img class="img" src="./img/landing1.png" alt="alibaba1" />
+                    <img class="img" src="./img/landing1.jpg" alt="alibaba1" />
                 </figure>
                 <div class="landing__main__right__bottom flex">
                     <figure class="landing__main__right__img2">
                         <img class="img" src="./img/landing2.png" alt="alibaba1" />
                     </figure>
                     <figure class="landing__main__right__img3">
-                        <img class="img" src="./img/landing3.png" alt="alibaba1" />
+                        <img class="img" src="./img/landing3.jpg" alt="alibaba1" />
                     </figure>
                 </div>
             </div>
@@ -197,12 +198,18 @@
             <h2 class="aboutUs__header">
                 Poznaj naszą firmę
             </h2>
-            <div class="flex">
+            <div class="flex flex--start">
                 <div class="aboutUs__item">
                     <img class="img" src="./img/about1.svg" alt="o-nas" />
                     <h3 class="aboutUs__item__header">
                         Doświadczenie
                     </h3>
+                    <button class="aboutUs__item__btn" onclick="toggleCompanyContent(0)">
+                        <span>
+                            Rozwiń
+                        </span>
+                        <img class="img" src="./img/arrow-down.svg" alt="arrow" />
+                    </button>
                     <p class="aboutUs__item__text">
                         Realizujemy usługi serwisowe od 2004 roku. Wspieramy naszych klientów na każdym etapie współpracy. Przez prawie 20 lat zrealizowaliśmy setki wymagających projektów, wykonaliśmy setki tysięcy napraw u klienta. Jesteśmy zawsze tam, gdzie potrzebują tego klienci. Nieustannie poszerzamy swoje kompetencje, aby oferować usługi na najwyższym poziomie.
                     </p>
@@ -212,6 +219,12 @@
                     <h3 class="aboutUs__item__header">
                         Kompleksowa usługa
                     </h3>
+                    <button class="aboutUs__item__btn" onclick="toggleCompanyContent(1)">
+                        <span>
+                            Rozwiń
+                        </span>
+                        <img class="img" src="./img/arrow-down.svg" alt="arrow" />
+                    </button>
                     <p class="aboutUs__item__text">
                         Oferujemy dostarczanie rozwiązań, usług utrzymaniowych oraz szeroko pojętego serwisu urządzeń informatycznych. Dzięki umowom i autoryzacjom największych producentów, wykorzystujemy najnowsze technologie wspierające biznes naszych klientów. Posiadamy kompetencje instalacyjne oraz elektryczne. Współpracujemy z siecią partnerów tak, aby zaoferować naszym klientom prawdziwie kompletne usługi.
                     </p>
@@ -221,6 +234,12 @@
                     <h3 class="aboutUs__item__header">
                         170+ osób w 3 krajach
                     </h3>
+                    <button class="aboutUs__item__btn" onclick="toggleCompanyContent(2)">
+                        <span>
+                            Rozwiń
+                        </span>
+                        <img class="img" src="./img/arrow-down.svg" alt="arrow" />
+                    </button>
                     <p class="aboutUs__item__text">
                         Pracuje dla nas zespół ponad 170 osób. Większość z nich to wysoko wykwalifikowani i doświadczeni informatycy. Obsługujemy przede wszystkim klientów o rozproszonej strukturze – firmy wielooddziałowe, sieci sklepowe, ale również mniejsze firmy lokalne. Każdy klient jest dla nas tak samo ważny, a każda naprawa wyjątkowo istotna.
                     </p>
@@ -443,6 +462,10 @@
                         lokalnego magazynu
                     </p>
                 </div>
+
+                <figure class="longLine">
+                    <img class="img" src="./img/long-line.png" alt="long-line" />
+                </figure>
             </div>
 
             <div class="onSite__main onSite__main--2 flex">
@@ -485,7 +508,7 @@
         <div class="partners w">
             <h2 class="partners__header">
                 Poznaj partnerów
-                <img class="img" src="./img/logo-alibaba.png" alt="logo" />
+                <img class="img" src="./img/logo-footer.png" alt="logo" />
             </h2>
             <figure class="partners__img">
                 <img class="img" src="./img/partnerzy.png" alt="partnerzy" />
@@ -585,7 +608,7 @@
                 </a>
             </div>
             <figure class="man">
-                <img class="img" src="./img/main-man.png" alt="man" />
+                <img class="img" src="./img/zespol.jpg" alt="man" />
             </figure>
         </div>
     </div>
@@ -606,7 +629,7 @@
                 </p>
                 <div class="section--points__right__person map__person">
                     <figure>
-                        <img class="img" src="./img/points-person.png" alt="person" />
+                        <img class="img" src="./img/dariusz.png" alt="person" />
                     </figure>
                     <div class="section--points__right__person__content">
                         <h5>
@@ -763,7 +786,7 @@
     </div>
 
     <div class="serviceCenter serviceCenter--3">
-        <img class="img" src="./img/bg.png" alt="centrum-serwisowe" />
+        <img class="img" src="./img/tlo.JPG" alt="centrum-serwisowe" />
         <div class="w">
             <h3 class="bigHeader">
                 Korzystając z naszych usług
@@ -828,6 +851,23 @@
                         Posiadamy sieć oddziałów i serwisantów którzy pracują na terenie całej Polski, Czech oraz Słowacji.
                         Usługi świadczone są na tym samym poziomie, z tym samym czasem SLA w każdym miejscu.
                     </p>
+                </div>
+
+                <div class="section--points__right__person section--points__right__person--faq">
+                    <figure>
+                        <img class="img" src="./img/points-person.png" alt="person" />
+                    </figure>
+                    <div class="section--points__right__person__content">
+                        <h5>
+                            Monika Rydyger
+                        </h5>
+                        <h6>
+                            Usługi handlowe
+                        </h6>
+                        <p>
+                            Nasi technicy to wyjątkowi ludzie na których zawsze można polegać.
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>

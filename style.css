@@ -6,7 +6,6 @@
 }
 
 html {
-    /* TODO */
     /*scroll-behavior: smooth;*/
 }
 
@@ -251,6 +250,12 @@ span.topMenu__menu__item::after {
     color: #fff;
     font-size: 20px;
     margin: 25px 0;
+    text-align: justify;
+    line-height: 1.25em;
+}
+
+.landing__main__content .nojustify {
+    text-align: left;
 }
 
 .landing__buttons {
@@ -320,7 +325,10 @@ span.topMenu__menu__item::after {
 }
 
 .landing__main__right__img1 {
-    width: 560px;
+    width: 350px !important;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .landing__main__right__img2 {
@@ -329,6 +337,8 @@ span.topMenu__menu__item::after {
 
 .landing__main__right__img3 {
     width: 257px;
+    margin-top: 20px;
+    border-radius: 15px;
 }
 
 .landing__main__right__bottom {
@@ -349,12 +359,12 @@ span.topMenu__menu__item::after {
 
 .aboutUs__item {
     width: 30%;
-    height: 528px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 60px 35px;
+    padding: 30px 35px;
     background: #FFFFFF;
     box-shadow: 0px 3px 54px rgba(0, 0, 0, 0.17);
 }
@@ -374,7 +384,27 @@ span.topMenu__menu__item::after {
 .aboutUs__item__text {
     color: #304B5C;
     font-size: 16px;
-    text-align: center;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.aboutUs__item__btn {
+    background: transparent;
+    font-size: 14px;
+    padding: 5px 20px;
+    margin: 0 0 0 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.aboutUs__item__btn .img {
+    width: 12px;
+    margin-left: 5px;
+    display: block;
+    height: auto;
 }
 
 .serviceCenter {
@@ -764,6 +794,24 @@ span.topMenu__menu__item::after {
     width: auto;
 }
 
+.longLine {
+    position: absolute;
+    top: 18%;
+    right: 8%;
+    width: 85%;
+    transform: rotate(-1deg);
+}
+
+.longLine::after {
+    content: url("./img/arrow-right.png");
+    position: absolute;
+    top: 48.5%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(150deg);
+    width: 10px;
+    height: auto;
+}
+
 .onSite__main__item__text {
     margin-top: 20px;
     font-weight: 700;
@@ -773,7 +821,7 @@ span.topMenu__menu__item::after {
 }
 
 .onSite__main--2 {
-    margin-top: 300px;
+    margin-top: 17vw;
 }
 
 .partners {
@@ -916,6 +964,7 @@ span.topMenu__menu__item::after {
 
 .man {
     width: 45%;
+    padding: 150px 0;
 }
 
 .text {
@@ -1186,6 +1235,7 @@ span.topMenu__menu__item::after {
 
 .serviceCenter--3 > .img {
     position: relative;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) brightness(.5);
 }
 
 .serviceCenter--3 > .w {
@@ -1243,16 +1293,6 @@ span.topMenu__menu__item::after {
     justify-content: space-between;
     align-items: flex-start;
     position: relative;
-}
-
-.faq__main::after {
-    content: "";
-    position: absolute;
-    bottom: 100px;
-    right: 0;
-    width: 400px;
-    height: 125px;
-    background: #304B5C;
 }
 
 .faq__item__header {
@@ -1503,6 +1543,7 @@ span.topMenu__menu__item::after {
     max-width: 400px;
     margin: 20px 0;
     font-size: 20px;
+    text-align: justify;
 }
 
 .page__header {
@@ -1537,18 +1578,14 @@ span.topMenu__menu__item::after {
     margin-bottom: 40px;
 }
 
-.page .section--points__item:last-of-type {
-    height: 440px;
-}
-
 .page--1::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 600px;
-    height: 365px;
-    background: #354C5B;
+    /*content: "";*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*right: 0;*/
+    /*width: 600px;*/
+    /*height: 365px;*/
+    /*background: #354C5B;*/
 }
 
 .landing--page--2 {
@@ -1746,4 +1783,14 @@ span.topMenu__menu__item::after {
     font-size: 15px;
     color: #9f9f9f;
     margin-top: 25px;
+}
+
+.section--points__right__person--faq {
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    width: 400px;
+    height: 135px;
+    background: #304B5C;
+    transform: none;
 }

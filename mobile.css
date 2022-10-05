@@ -1,3 +1,17 @@
+@media(min-width: 1600px) {
+    .longLine {
+        width: 85%;
+        top: 38%;
+        transform: rotate(-1deg);
+    }
+}
+
+@media(max-width: 1550px) {
+    .longLine {
+        transform: rotate(1deg);
+    }
+}
+
 @media(max-width: 1500px) {
     .section--points__main {
         width: 60%;
@@ -142,6 +156,10 @@
 @media(max-width: 1200px) {
     .topMenu__contacts__item {
         width: 360px;
+    }
+
+    .longLine {
+        display: none;
     }
 
     .landing__main__right--page2 {

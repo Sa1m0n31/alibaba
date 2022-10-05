@@ -20,9 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d973965-f7bb-4483-9a85-edd9ee971d92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/landing1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/landing3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/tlo.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/zespol.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/branza-logistyczna.html" beforeDir="false" afterPath="$PROJECT_DIR$/branza-logistyczna.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/mobile.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/polityka-prywatnosci.html" beforeDir="false" afterPath="$PROJECT_DIR$/polityka-prywatnosci.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/producenci-urzadzen-it.html" beforeDir="false" afterPath="$PROJECT_DIR$/producenci-urzadzen-it.html" afterDir="false" />
@@ -59,7 +65,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../job-portal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -83,7 +89,9 @@
       <workItem from="1662629638488" duration="96000" />
       <workItem from="1663353341639" duration="11861000" />
       <workItem from="1663407530974" duration="5086000" />
-      <workItem from="1663434707793" duration="10417000" />
+      <workItem from="1663434707793" duration="10473000" />
+      <workItem from="1664181134409" duration="752000" />
+      <workItem from="1664924071780" duration="4662000" />
     </task>
     <servers />
   </component>
@@ -103,13 +111,17 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1663444461637">
+    <state x="-1180" y="275" key="FileChooserDialogImpl" timestamp="1664182532985">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1663444461637" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1663441380339">
+    <state x="-1180" y="275" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1664182532985" />
+    <state x="-1253" y="253" width="586" height="534" key="find.popup" timestamp="1664928153823">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1663441380339" />
+    <state x="-1253" y="253" width="586" height="534" key="find.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1664928153823" />
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1664928262041">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1664928262041" />
   </component>
 </project>
