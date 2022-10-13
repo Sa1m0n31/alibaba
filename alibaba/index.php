@@ -22,13 +22,13 @@ get_header();
             </h1>
             <div class="landing__main__content">
                 <p>
-                    Zapewniamy kompleksowe wsparcie klienta w zakresie serwisu, zarządzania i konserwacji szeroko pojętej infrastruktury informatycznej.
+                    Zapewniamy kompleksowe wsparcie klienta w zakresie serwisu, zarządzania i&nbsp;konserwacji szeroko pojętej infrastruktury informatycznej.
                 </p>
                 <p>
-                    Specjalizujemy się w usługach serwisowych i instalacyjnych na miejscu u klienta.
+                    Specjalizujemy się w usługach serwisowych i&nbsp;instalacyjnych na miejscu u klienta.
                 </p>
                 <p>
-                    Naszym celem jest zapewnienie bezpieczeństwa i ciągłości pracy urządzeń i systemów tak aby nasi klienci mogli skupić się na rozwijaniu swojego biznesu.
+                    Naszym celem jest zapewnienie bezpieczeństwa i&nbsp;ciągłości pracy urządzeń i&nbsp;systemów tak aby nasi klienci mogli skupić się na rozwijaniu swojego biznesu.
                 </p>
             </div>
 
@@ -43,16 +43,16 @@ get_header();
             </div>
         </div>
 
-        <div class="landing__main__right">
+        <div class="landing__main__right landing__main__right--main">
             <figure class="landing__main__right__img1">
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/lan1.png'; ?>" alt="alibaba1" />
+                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/land1.png'; ?>" alt="alibaba1" />
             </figure>
             <div class="landing__main__right__bottom flex">
                 <figure class="landing__main__right__img2">
                     <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/landing2.png'; ?>" alt="alibaba1" />
                 </figure>
                 <figure class="landing__main__right__img3">
-                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/lan3.png'; ?>" alt="alibaba1" />
+                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/land3.png'; ?>" alt="alibaba1" />
                 </figure>
             </div>
         </div>
@@ -466,7 +466,7 @@ get_header();
                     W jaki sposób pracuje
                     nasz zespół?
                 </h3>
-                <p class="text">
+                <p class="text justify">
                     W porozumieniu z klientem uzgadniamy zakres wykonywanych czynności, oraz terminy rozwiązania poszczególnych incydentów. W zależności od kategorii usterki możemy zagwarantować naprawę nawet w ciągu 2 godzin od zgłoszenia. Standardem dla nas są naprawy wykonywane w 4 godziny lub na następny dzień roboczy. Według naszej filozofii, czas naprawy, to jest czas doprowadzenia urządzenia do pełnej sprawności lub podstawienie urządzenia zastępczego.
                 </p>
                 <a href="#kontakt" class="btn btn--landing btn--landing--white">
@@ -533,7 +533,7 @@ get_header();
                 Projekt instalacji monitorów
                 reklamowych w 600 sklepach.
             </h4>
-            <p class="blog__item__text">
+            <p class="blog__item__text justify">
                 Projekt polegał na instalacji i konfiguracji monitorów reklamowych w sklepach Rossmann. Do naszych zadań należało wykonanie fizycznej instalacji totemów wraz z monitorami na witrynach oraz uchwytów
             </p>
             <button class="blog__item__btn">

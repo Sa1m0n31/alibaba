@@ -20,7 +20,7 @@ get_header();
             <div class="landing__main__content landing__main__content--page">
                 <p>
                     W ramach współpracy oferujemy pomoc techniczną, serwis sprzętu
-                    elektronicznego, instalacje i konfiguracje  systemów informatycznych.
+                    elektronicznego, instalacje i&nbsp;konfiguracje  systemów informatycznych.
                 </p>
             </div>
         </div>

@@ -18,7 +18,7 @@
                 <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-footer.png'; ?>" alt="alibaba" />
             </a>
             <h6 class="footer__copyright">
-                Copyright@ Alibaba Serwis techniczny
+                Copyright@ Alibaba Centrum Serwisowe Sp.z.o.o.
             </h6>
         </div>
         <div class="footer__col">

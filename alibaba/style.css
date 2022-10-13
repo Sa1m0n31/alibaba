@@ -241,6 +241,10 @@ span.topMenu__menu__item::after {
 	margin-top: -100px;
 }
 
+.landing__main__right .img {
+	border-radius: 8px;
+}
+
 .landing__main--page .landing__main__right .landing__main__right__bottom {
 	margin-top: -30px;
 }
@@ -354,6 +358,10 @@ span.topMenu__menu__item::after {
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.landing__main__right--main .landing__main__right__img1 {
+	max-width: 320px;
 }
 
 .landing__main__right__img2 {
@@ -768,7 +776,7 @@ span.topMenu__menu__item::after {
 	content: url("./img/arrow-right.png");
 	position: absolute;
 	top: 100%;
-	transform: translateY(-50%);
+	transform: translateY(-40%);
 	left: 22%;
 	width: 10px;
 	height: auto;
@@ -1190,6 +1198,11 @@ form br {
 	margin-bottom: 20px;
 }
 
+.references__item__text,
+.references__item__text * {
+	text-align: justify;
+}
+
 .img--stars {
 	max-width: 60%;
 	margin-top: 40px;
@@ -1339,6 +1352,7 @@ form br {
 .faq__item__text {
 	color: #354C5B;
 	opacity: .7;
+	text-align: justify;
 }
 
 .experts {
@@ -1642,6 +1656,10 @@ form br {
 	background: linear-gradient(180deg, #304B5C 0%, #486A80 100%);
 }
 
+.landing__main__right--page2 .landing--page__points__item {
+	margin-bottom: 25px;
+}
+
 .landing__main__right--page2 {
 	background: #fff;
 	height: 500px;
@@ -1668,6 +1686,10 @@ form br {
 
 .landing__after__bottom {
 	margin: 70px auto 50px;
+}
+
+.landing__after__bottom--flexStart {
+	align-items: flex-start;
 }
 
 .landing__after__bottom__header {
@@ -1743,7 +1765,7 @@ form br {
 }
 
 .landing__main__content--page--2 p {
-	font-size: 32px;
+	font-size: 28px;
 }
 
 .landing__main__left--3 .landing--page__points__item {
@@ -1899,11 +1921,21 @@ input[type=submit] {
 	background: #2A4759;
 	color: #fff;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
 	font-size: 24px;
 	font-weight: 700;
+	border-radius: 10px;
+}
+
+.page--options__item .img {
+	height: 50px;
+	filter: brightness(0) invert(1);
+	display: block;
+	margin-bottom: 30px;
+	width: auto;
 }
 
 .page--options {

@@ -48,7 +48,7 @@
         <div class="mobileMenu d-mobile">
             <div class="mobileMenu__inner">
                 <a href="<?php echo home_url(); ?>" class="topMenu__logo">
-                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-footer.png'; ?>" alt="logo" />
+                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-footer.svg'; ?>" alt="logo" />
                 </a>
 
                 <button class="topMenu__menuBtn d-mobile" onclick="closeMobileMenu()">
@@ -88,7 +88,7 @@
 
         <div class="topMenu w flex">
             <a href="<?php echo home_url(); ?>" class="topMenu__logo">
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-footer.png'; ?>" alt="logo" />
+                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-footer.svg'; ?>" alt="logo" />
             </a>
 
             <button class="topMenu__menuBtn d-mobile" onclick="openMobileMenu()">
@@ -130,7 +130,7 @@
             <div class="topMenu__contacts">
                 <div class="topMenu__contacts__item flex">
                     <figure class="topMenu__contacts__item__figure">
-                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/contact1.png'; ?>" alt="kontakt" />
+                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/dariusz.png'; ?>" alt="kontakt" />
                     </figure>
                     <div class="topMenu__contacts__item__content">
                         <h3 class="topMenu__contacts__item__header">

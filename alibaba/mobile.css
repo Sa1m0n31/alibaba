@@ -426,6 +426,10 @@
         transform: scale(.75) !important;
     }
 
+    .footer__col__bottom__link:first-of-type {
+        transform: scale(.75) translateY(-3px) !important;
+    }
+
     .footer__col__menu li a {
         font-size: 14px;
     }
@@ -878,6 +882,10 @@
 
     .page__header--terms .page__header__header {
         font-size: 24px;
+    }
+
+    .section--points__right--2 {
+        right: 0;
     }
 }
 

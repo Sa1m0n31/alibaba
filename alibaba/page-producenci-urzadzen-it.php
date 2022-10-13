@@ -19,7 +19,7 @@ get_header();
         <div class="landing__main__left">
             <div class="landing__main__content landing__main__content--page landing__main__content--page--2">
                 <p class="nobold">
-                    Jeżeli prowadzisz lub zarządzasz firmą która produkuje lub dystrybuuje sprzęt wymagający naprawy na miejscu u klienta:
+                    Jeżeli prowadzisz lub zarządzasz firmą, która produkuje lub dystrybuuje sprzęt wymagający naprawy na miejscu u klienta, zapraszamy do współpracy w ramach serwisu OnSite.
                 </p>
             </div>
         </div>
@@ -69,10 +69,6 @@ get_header();
                         </span>
                     </span>
             </div>
-
-            <h4 class="landing--page__points__header landing--page__points__header--2">
-                Zapraszamy do współpracy w ramach serwisu OnSite.
-            </h4>
         </div>
     </main>
 
@@ -91,7 +87,7 @@ get_header();
                 <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/it-3.png'; ?>" alt="it" />
             </figure>
         </div>
-        <div class="landing__after__bottom flex">
+        <div class="landing__after__bottom flex landing__after__bottom--flexStart">
             <h3 class="landing__after__bottom__header">
                 Jakie korzyści daje outsourcing serwisu urządzeń?
             </h3>
