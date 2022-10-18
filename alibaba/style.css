@@ -928,11 +928,15 @@ span.topMenu__menu__item::after {
 	text-align: justify;
 }
 
-.section--points::after {
+.section--points > .w {
+	position: relative;
+}
+
+.section--points > .w:last-child::after {
 	content: "";
 	position: absolute;
 	bottom: -50px;
-	left: 0;
+	left: -200px;
 	width: 280px;
 	height: 130px;
 	background: #304B5C;
@@ -943,7 +947,7 @@ span.topMenu__menu__item::after {
 	position: relative;
 }
 
-.section--points > w. {
+.section--points > .w {
 	position: relative;
 	z-index: 3;
 }
@@ -956,7 +960,7 @@ span.topMenu__menu__item::after {
 }
 
 .section--points__right--2 {
-	right: 100px;
+	right: -120px;
 }
 
 .section--points__right__person {
@@ -1614,6 +1618,14 @@ form br {
 	max-height: 550px;
 }
 
+.page-id-18 .landing {
+	max-height: 680px;
+}
+
+.landing__main__content--page--4 p {
+	font-size: 24px !important;
+}
+
 .page-id-7 .landing,
 .page-id-10 .landing {
 	max-height: 660px;
@@ -1681,7 +1693,7 @@ form br {
 }
 
 .landing__after__img {
-	width: 30%;
+	width: 45%;
 }
 
 .landing__after__bottom {

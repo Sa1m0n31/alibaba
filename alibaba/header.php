@@ -155,7 +155,7 @@
                         <p class="topMenu__contacts__item__post">
                             Usługi handlowe
                             <span class="topMenu__contacts__item__phoneNumber">
-                                +48 508 088 640
+                                +48 510 088 640
                             </span>
                         </p>
                     </div>

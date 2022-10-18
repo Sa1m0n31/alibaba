@@ -895,6 +895,16 @@
         padding: 60px 0 40px;
     }
 
+    .landing__main__right__bottom--network {
+        margin-top: 10px !important;
+        gap: 40px;
+    }
+
+    .landing__main__right__img1--network {
+        width: 400px !important;
+        max-width: 100% !important;
+    }
+
     .page--options {
         flex-direction: column;
         justify-content: center;

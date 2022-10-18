@@ -37,7 +37,7 @@ get_header();
                     Oferta serwisowa
                 </a>
                 </a>
-                <a href="<?php echo home_url(); ?>#uslugi-handlowe" class="btn btn--landing btn--landing--white">
+                <a href="<?php echo get_page_link( get_page_by_title( 'Oferta handlowa' )->ID ); ?>" class="btn btn--landing btn--landing--white">
                     Oferta handlowa
                 </a>
             </div>
@@ -201,7 +201,7 @@ get_header();
                         na życzenie klienta dostarczymy dowolny sprzęt,zapewniamy dostawy materiałów eksploatacyjnych, jesteśmy autoryzowanym dystrybutorem oprogramowania Faronics dla działów IT (http://www.faronics.pl).
                     </p>
 
-                    <a href="#uslugi-handlowe" class="btn btn--landing btn--landing--white">
+                    <a href="<?php echo get_page_link( get_page_by_title( 'Oferta handlowa' )->ID ); ?>" class="btn btn--landing btn--landing--white">
                         Oferta handlowa
                     </a>
                 </div>
@@ -441,7 +441,7 @@ get_header();
                 <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/points-img.png?n=1'; ?>" alt="img" />
                 <div class="section--points__right__person">
                     <figure>
-                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/points-person.png'; ?>" alt="person" />
+                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/monika.png'; ?>" alt="person" />
                     </figure>
                     <div class="section--points__right__person__content">
                         <h5>
@@ -645,14 +645,14 @@ get_header();
             <a href="<?php echo get_page_link( get_page_by_title( 'Branża logistyczna' )->ID ); ?>" class="btn btn--landing">
                 Oferta serwisowa
             </a>
-            <a href="#uslugi-handlowe" class="btn btn--landing btn--landing--white">
+            <a href="<?php echo get_page_link( get_page_by_title( 'Oferta handlowa' )->ID ); ?>" class="btn btn--landing btn--landing--white">
                 Oferta handlowa
             </a>
         </div>
     </div>
 
     <div class="serviceCenter serviceCenter--3">
-        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/tlo.JPG'; ?>" alt="centrum-serwisowe" />
+        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/vision.jpeg'; ?>" alt="centrum-serwisowe" />
         <div class="w">
             <h3 class="bigHeader">
                 Korzystając z naszych usług
@@ -758,10 +758,10 @@ get_header();
                     </h5>
                 </div>
                 <div class="experts__item__bottom">
-                    <a class="experts__item__bottom__item" href="mailto:monika.rydyger@alibaba.pl">
+                    <a class="experts__item__bottom__item" href="mailto:m.rydyger@alibaba.pl">
                         <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/mail-icon.png'; ?>" alt="mail" />
                         <span>
-                            monika.rydyger@alibaba.pl
+                            m.rydyger@alibaba.pl
                         </span>
                     </a>
                     <a class="experts__item__bottom__item" href="tel:+48510088640">
@@ -786,10 +786,10 @@ get_header();
                     </h5>
                 </div>
                 <div class="experts__item__bottom">
-                    <a class="experts__item__bottom__item" href="mailto:dariusz.padyjasek@alibaba.pl">
+                    <a class="experts__item__bottom__item" href="mailto:d.padyjasek@alibaba.pl">
                         <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/mail-icon.png'; ?>" alt="mail" />
                         <span>
-                            dariusz.padyjasek@alibaba.pl
+                            d.padyjasek@alibaba.pl
                         </span>
                     </a>
                     <a class="experts__item__bottom__item" href="tel:+48510088644">

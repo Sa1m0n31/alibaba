@@ -26,15 +26,15 @@ get_header();
         </div>
 
         <div class="landing__main__right landing__main__right--page1">
-            <figure class="landing__main__right__img1">
+            <figure class="landing__main__right__img1 landing__main__right__img1--network">
                 <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/sieci-1.png'; ?>" alt="alibaba1" />
             </figure>
-            <div class="landing__main__right__bottom flex">
+            <div class="landing__main__right__bottom landing__main__right__bottom--network flex">
                 <figure class="landing__main__right__img2">
-                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/sieci-2.png'; ?>" alt="alibaba1" />
+                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/sieci1.jpeg'; ?>" alt="alibaba1" />
                 </figure>
                 <figure class="landing__main__right__img3">
-                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/sieci-3.png'; ?>" alt="alibaba1" />
+                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/sieci2.jpeg'; ?>" alt="alibaba1" />
                 </figure>
             </div>
         </div>

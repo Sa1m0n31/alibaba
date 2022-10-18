@@ -78,13 +78,10 @@ get_header();
     <div class="landing__after landing__after--page2 w">
         <div class="flex">
             <figure class="landing__after__img">
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/it-1.png'; ?>" alt="it" />
+                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/it1.jpeg'; ?>" alt="it" />
             </figure>
             <figure class="landing__after__img">
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/it-1.png'; ?>" alt="it" />
-            </figure>
-            <figure class="landing__after__img">
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/it-3.png'; ?>" alt="it" />
+                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/it2.jpeg'; ?>" alt="it" />
             </figure>
         </div>
         <div class="landing__after__bottom flex landing__after__bottom--flexStart">

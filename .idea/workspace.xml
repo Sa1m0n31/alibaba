@@ -20,21 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d973965-f7bb-4483-9a85-edd9ee971d92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alibaba/img/computer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba/img/distributed.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba/img/land1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba/img/land3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba/img/logo-footer.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba/img/networking.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/img/han1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/img/han2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/img/it1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/img/it2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/img/log1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/img/log2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/img/sieci1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/img/sieci2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/img/vision.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/page-oferta-handlowa.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba/img/arrow-right.png" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/img/arrow-right.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba/img/lan1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba/page-oferta-serwisowa.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/page-oferta-serwisowa.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/page-branza-logistyczna.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/page-branza-logistyczna.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/page-producenci-urzadzen-it.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/page-producenci-urzadzen-it.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/page-sieci-handlowe-i-uslugowe.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/page-sieci-handlowe-i-uslugowe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/style.css" afterDir="false" />
@@ -82,6 +82,9 @@
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\alibaba\img" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\alibaba" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\alibaba\alibaba\img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -104,7 +107,9 @@
       <workItem from="1665273156275" duration="441000" />
       <workItem from="1665343073621" duration="5451000" />
       <workItem from="1665493328253" duration="2316000" />
-      <workItem from="1665651278935" duration="675000" />
+      <workItem from="1665651278935" duration="745000" />
+      <workItem from="1665866640687" duration="23000" />
+      <workItem from="1666114289712" duration="4949000" />
     </task>
     <servers />
   </component>
