@@ -15,7 +15,7 @@
     <div class="w flex">
         <div class="footer__col">
             <a href="<?php echo home_url(); ?>" class="footer__col__logo">
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-footer.png'; ?>" alt="alibaba" />
+                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/alibaba_logo2.png'; ?>" alt="alibaba" />
             </a>
             <h6 class="footer__copyright">
                 Copyright@ Alibaba Centrum Serwisowe Sp.z.o.o.
@@ -30,7 +30,7 @@
                 <li><a href="<?php echo home_url(); ?>#o-firmie">O firmie</a></li>
                 <li><a href="<?php echo home_url(); ?>#centrum-serwisowe">Centrum serwisowe</a></li>
                 <li><a href="<?php echo get_page_link( get_page_by_title( 'Sieci handlowe i usługowe' )->ID ); ?>">Sieci handlowe i usługowe</a></li>
-                <li><a href="<?php echo get_page_link( get_page_by_title( 'Producenci urządzeń IT' )->ID ); ?>">Producenci IT</a></li>
+                <li><a href="<?php echo get_page_link( get_page_by_title( 'Producenci urządzeń IT' )->ID ); ?>">Producent urządzeń</a></li>
                 <li><a href="<?php echo get_page_link( get_page_by_title( 'Branża logistyczna' )->ID ); ?>">Branża logistyczna</a></li>
                 <li><a href="<?php echo home_url(); ?>#uslugi-handlowe">Uslugi handlowe</a></li>
                 <li><a href="<?php echo home_url(); ?>#blog">Blog</a></li>

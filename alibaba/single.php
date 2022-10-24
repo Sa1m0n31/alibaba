@@ -10,31 +10,32 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main">
+</div>
+	<main id="primary" class="site-main site-main--single">
 
 		<?php
-		while ( have_posts() ) :
-			the_post();
+		while ( have_posts() ) {
+		    the_post();
 
-			get_template_part( 'template-parts/content', get_post_type() );
+		    ?>
 
-			the_post_navigation(
-				array(
-					'prev_text' => '<span class="nav-subtitle">' . esc_html__( 'Previous:', 'alibaba' ) . '</span> <span class="nav-title">%title</span>',
-					'next_text' => '<span class="nav-subtitle">' . esc_html__( 'Next:', 'alibaba' ) . '</span> <span class="nav-title">%title</span>',
-				)
-			);
+            <h1 class="single__title">
+                <?php
+                    echo the_title();
+                ?>
+            </h1>
 
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
+            <article class="single__content">
+                <?php
+                    echo the_content();
+                ?>
+            </article>
 
-		endwhile; // End of the loop.
+                <?php
+        }
 		?>
 
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
 get_footer();

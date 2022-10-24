@@ -176,16 +176,23 @@ get_header();
                 Usługi handlowe
             </h3>
             <div class="flex flex--start">
-                <div class="section__images">
-                    <figure class="section__images__img--1">
-                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/uslugi-handlowe-1.png'; ?>" alt="uslugi" />
-                    </figure>
-                    <figure class="section__images__img--2">
-                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/uslugi-handlowe-2.png'; ?>" alt="uslugi" />
-                    </figure>
-                    <figure class="section__images__img--3">
-                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/uslugi-handlowe-3.png'; ?>" alt="uslugi" />
-                    </figure>
+                <div class="section__images section__images--han">
+                        <figure class="section__images__img--1 section__images__img--1--1">
+                            <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/han1.jpeg'; ?>" alt="uslugi" />
+                        </figure>
+                        <figure class="section__images__img--2 section__images__img--2--2">
+                            <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/han2.jpeg'; ?>" alt="uslugi" />
+                        </figure>
+
+<!--                    <figure class="section__images__img--1">-->
+<!--                        <img class="img" src="--><?php //echo get_bloginfo('stylesheet_directory') . '/img/uslugi-handlowe-1.png'; ?><!--" alt="uslugi" />-->
+<!--                    </figure>-->
+<!--                    <figure class="section__images__img--2">-->
+<!--                        <img class="img" src="--><?php //echo get_bloginfo('stylesheet_directory') . '/img/uslugi-handlowe-2.png'; ?><!--" alt="uslugi" />-->
+<!--                    </figure>-->
+<!--                    <figure class="section__images__img--3">-->
+<!--                        <img class="img" src="--><?php //echo get_bloginfo('stylesheet_directory') . '/img/uslugi-handlowe-3.png'; ?><!--" alt="uslugi" />-->
+<!--                    </figure>-->
                 </div>
                 <div class="section__text justify">
                     <p class="bold">
@@ -525,70 +532,46 @@ get_header();
 
     <div class="blogSection w flex">
         <span id="blog"></span>
-        <div class="blog__item">
-            <figure>
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/blog.png'; ?>" alt="blog" />
-            </figure>
-            <h4 class="blog__item__header">
-                Projekt instalacji monitorów
-                reklamowych w 600 sklepach.
-            </h4>
-            <p class="blog__item__text justify">
-                Projekt polegał na instalacji i konfiguracji monitorów reklamowych w sklepach Rossmann. Do naszych zadań należało wykonanie fizycznej instalacji totemów wraz z monitorami na witrynach oraz uchwytów
-            </p>
-            <button class="blog__item__btn">
-                Więcej
-            </button>
-        </div>
-        <div class="blog__item">
-            <figure>
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/blog.png'; ?>" alt="blog" />
-            </figure>
-            <h4 class="blog__item__header">
-                Projekt instalacji monitorów
-                reklamowych w 600 sklepach.
-            </h4>
-            <p class="blog__item__text">
-                Projekt polegał na instalacji i konfiguracji monitorów reklamowych w sklepach Rossmann. Do naszych zadań należało wykonanie fizycznej instalacji totemów wraz z monitorami na witrynach oraz uchwytów
-            </p>
-            <button class="blog__item__btn">
-                Więcej
-            </button>
-        </div>
-        <div class="blog__item">
-            <figure>
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/blog.png'; ?>" alt="blog" />
-            </figure>
-            <h4 class="blog__item__header">
-                Projekt instalacji monitorów
-                reklamowych w 600 sklepach.
-            </h4>
-            <p class="blog__item__text">
-                Projekt polegał na instalacji i konfiguracji monitorów reklamowych w sklepach Rossmann. Do naszych zadań należało wykonanie fizycznej instalacji totemów wraz z monitorami na witrynach oraz uchwytów
-            </p>
-            <button class="blog__item__btn">
-                Więcej
-            </button>
-        </div>
-        <div class="blog__item">
-            <figure>
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/blog.png'; ?>" alt="blog" />
-            </figure>
-            <h4 class="blog__item__header">
-                Projekt instalacji monitorów
-                reklamowych w 600 sklepach.
-            </h4>
-            <p class="blog__item__text">
-                Projekt polegał na instalacji i konfiguracji monitorów reklamowych w sklepach Rossmann. Do naszych zadań należało wykonanie fizycznej instalacji totemów wraz z monitorami na witrynach oraz uchwytów
-            </p>
-            <button class="blog__item__btn">
-                Więcej
-            </button>
-        </div>
 
-        <a href="/" class="btn btn--landing btn--blog">
-            Nasz blog
-        </a>
+        <?php
+                $args = array(
+                    'post_type' => 'post',
+                    'posts_per_page' => 4
+                );
+
+                $post_query = new WP_Query($args);
+
+                if($post_query->have_posts() ) {
+                    while($post_query->have_posts() ) {
+                        $post_query->the_post();
+                        $post_id = get_the_ID();
+                        ?>
+                        <div class="blog__item">
+                            <figure>
+                                <?php
+                                    echo get_the_post_thumbnail();
+                                ?>
+                            </figure>
+                            <h4 class="blog__item__header">
+                                <?php echo the_title(); ?>
+                            </h4>
+                            <div class="blog__item__text justify">
+                                <?php
+                                echo the_excerpt();
+                                ?>
+                            </div>
+                            <a href="<?php the_permalink() ?>" class="blog__item__btn">
+                                Więcej
+                            </a>
+                        </div>
+                <?php
+                 }
+        }
+        ?>
+
+<!--        <a href="/" class="btn btn--landing btn--blog">-->
+<!--            Nasz blog-->
+<!--        </a>-->
     </div>
 
     <div class="section section--references section--noscroll">
@@ -653,16 +636,16 @@ get_header();
 
     <div class="serviceCenter serviceCenter--3">
         <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/vision.jpeg'; ?>" alt="centrum-serwisowe" />
-        <div class="w">
-            <h3 class="bigHeader">
-                Korzystając z naszych usług
-                otwierasz nowe
-                możliwości
-            </h3>
-            <h4 class="smallHeader">
-                Cieszymy się że możemy wypełnic swoje zadanie
-            </h4>
-        </div>
+<!--        <div class="w">-->
+<!--            <h3 class="bigHeader">-->
+<!--                Korzystając z naszych usług-->
+<!--                otwierasz nowe-->
+<!--                możliwości-->
+<!--            </h3>-->
+<!--            <h4 class="smallHeader">-->
+<!--                Cieszymy się że możemy wypełnic swoje zadanie-->
+<!--            </h4>-->
+<!--        </div>-->
     </div>
 
     <div class="faq">
@@ -721,7 +704,7 @@ get_header();
 
                 <div class="section--points__right__person section--points__right__person--faq">
                     <figure>
-                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/points-person.png'; ?>" alt="person" />
+                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/monika.png'; ?>" alt="person" />
                     </figure>
                     <div class="section--points__right__person__content">
                         <h5>

@@ -138,8 +138,8 @@ add_action( 'widgets_init', 'alibaba_widgets_init' );
  * Enqueue scripts and styles.
  */
 function alibaba_scripts() {
-	wp_enqueue_style( 'alibaba-style', get_stylesheet_uri() . '?n=4', array(), _S_VERSION );
-	wp_enqueue_style( 'alibaba-style-mobile', get_template_directory_uri() . '/mobile.css?n=5', array(), _S_VERSION );
+	wp_enqueue_style( 'alibaba-style', get_stylesheet_uri() . '?n=5', array(), _S_VERSION );
+	wp_enqueue_style( 'alibaba-style-mobile', get_template_directory_uri() . '/mobile.css?n=6', array(), _S_VERSION );
 
 	wp_enqueue_script( 'alibaba-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 	wp_enqueue_script( 'alibaba-main', get_template_directory_uri() . '/js/main.js', array(), _S_VERSION, true );

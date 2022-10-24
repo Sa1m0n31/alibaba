@@ -6,6 +6,12 @@
     }
 }
 
+@media(max-width: 1600px) {
+    .onSite__main--2 {
+        margin-top: 21%;
+    }
+}
+
 @media(max-width: 1550px) {
     .longLine {
         transform: rotate(1deg);
@@ -37,6 +43,14 @@
 @media(max-width: 1400px) {
     .topBar {
         padding: 18px 0;
+    }
+
+    .onSite__main--2 {
+        margin-top: 19%;
+    }
+
+    .landing__main__right__bottom--network > figure {
+        width: 250px;
     }
 
     .landing__main__content--page--2 p {
@@ -317,6 +331,19 @@
 @media(max-width: 996px) {
     .topMenu__contacts {
         bottom: -155%;
+    }
+
+    .single .landing {
+        min-height: 200px;
+    }
+
+    .single__title {
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+
+    .single__content p {
+        font-size: 15px;
     }
 
     .serviceCenter--3 {
@@ -1339,6 +1366,10 @@
 
     .serviceCenter {
         padding-bottom: 40px;
+    }
+
+    .serviceCenter--3 {
+        padding-bottom: 0;
     }
 
     .serviceCenter__main {

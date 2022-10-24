@@ -62,7 +62,7 @@
                             <li><a href="<?php echo home_url(); ?>#o-firmie">O firmie</a></li>
                             <li><a href="<?php echo home_url(); ?>#centrum-serwisowe">Centrum serwisowe</a></li>
                             <li><a href="<?php echo get_page_link( get_page_by_title( 'Sieci handlowe i usługowe' )->ID ); ?>">Sieci handlowe i usługowe</a></li>
-                            <li><a href="<?php echo get_page_link( get_page_by_title( 'Producenci urządzeń IT' )->ID ); ?>">Producenci IT</a></li>
+                            <li><a href="<?php echo get_page_link( get_page_by_title( 'Producenci urządzeń IT' )->ID ); ?>">Producent urządzeń</a></li>
                             <li><a href="<?php echo get_page_link( get_page_by_title( 'Branża logistyczna' )->ID ); ?>">Branża logistyczna</a></li>
                             <li><a href="<?php echo home_url(); ?>#uslugi-handlowe">Uslugi handlowe</a></li>
                             <li><a href="<?php echo home_url(); ?>#blog">Blog</a></li>
@@ -109,7 +109,7 @@
                             Sieci handlowe i usługowe
                         </a>
                         <a href="<?php echo get_page_link( get_page_by_title( 'Producenci urządzeń IT' )->ID ); ?>" class="topMenu__menu__item">
-                            Producenci urządzeń IT
+                            Producent urządzeń
                         </a>
                         <a href="<?php echo get_page_link( get_page_by_title( 'Branża logistyczna' )->ID ); ?>" class="topMenu__menu__item">
                             Branża logistyczna

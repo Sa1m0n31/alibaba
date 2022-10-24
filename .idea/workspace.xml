@@ -20,23 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d973965-f7bb-4483-9a85-edd9ee971d92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alibaba/img/han1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba/img/han2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba/img/it1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba/img/it2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba/img/log1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba/img/log2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba/img/sieci1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba/img/sieci2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba/img/vision.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alibaba/page-oferta-handlowa.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/img/han2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/img/han2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/img/log2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/img/log2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/img/zespol.png" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/img/zespol.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba/page-branza-logistyczna.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/page-branza-logistyczna.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba/page-producenci-urzadzen-it.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/page-producenci-urzadzen-it.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba/page-sieci-handlowe-i-uslugowe.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/page-sieci-handlowe-i-uslugowe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/single.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +63,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/alibaba/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zimnerzeczy" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -109,7 +102,11 @@
       <workItem from="1665493328253" duration="2316000" />
       <workItem from="1665651278935" duration="745000" />
       <workItem from="1665866640687" duration="23000" />
-      <workItem from="1666114289712" duration="4949000" />
+      <workItem from="1666114289712" duration="5134000" />
+      <workItem from="1666128192545" duration="69000" />
+      <workItem from="1666340660509" duration="634000" />
+      <workItem from="1666348000536" duration="683000" />
+      <workItem from="1666640662047" duration="5667000" />
     </task>
     <servers />
   </component>
