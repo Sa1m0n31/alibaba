@@ -70,13 +70,13 @@
 
             <div class="footer__col__bottom flex">
                 <a href="https://www.facebook.com/profile.php?id=100076471621791" target="_blank" class="footer__col__bottom__link">
-                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/fb-footer.png'; ?>" alt="facebook" />
+                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/fb-new.svg'; ?>" alt="facebook" />
                 </a>
                 <a href="https://www.linkedin.com/company/alibabapl/mycompany/" target="_blank" class="footer__col__bottom__link">
-                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/linkedin-footer.png'; ?>" alt="facebook" />
+                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/linkedin-new.svg'; ?>" alt="facebook" />
                 </a>
-                <a href="https:/allegro.pl" target="_blank" class="footer__col__bottom__link footer__col__bottom__link--allegro">
-                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/allegro.png'; ?>" alt="facebook" />
+                <a href="https://allegro.pl/uzytkownik/AlibabaPL" target="_blank" class="footer__col__bottom__link footer__col__bottom__link--allegro">
+                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/allegro-new.svg'; ?>" alt="facebook" />
                 </a>
             </div>
         </div>

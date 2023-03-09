@@ -36,7 +36,6 @@ get_header();
                 <a href="<?php echo get_page_link( get_page_by_title( 'Oferta serwisowa' )->ID ); ?>" class="btn btn--landing">
                     Oferta serwisowa
                 </a>
-                </a>
                 <a href="<?php echo get_page_link( get_page_by_title( 'Oferta handlowa' )->ID ); ?>" class="btn btn--landing btn--landing--white">
                     Oferta handlowa
                 </a>
@@ -45,14 +44,14 @@ get_header();
 
         <div class="landing__main__right landing__main__right--main">
             <figure class="landing__main__right__img1">
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/land1.png'; ?>" alt="alibaba1" />
+                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/land1.png?n=2'; ?>" alt="alibaba1" />
             </figure>
             <div class="landing__main__right__bottom flex">
                 <figure class="landing__main__right__img2">
-                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/landing2.png'; ?>" alt="alibaba1" />
+                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/landing2.png?n=1'; ?>" alt="alibaba1" />
                 </figure>
                 <figure class="landing__main__right__img3">
-                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/land3.png'; ?>" alt="alibaba1" />
+                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/land3.png?n=1'; ?>" alt="alibaba1" />
                 </figure>
             </div>
         </div>
@@ -123,7 +122,10 @@ get_header();
             <div class="serviceCenter__main flex">
                 <div class="serviceCenter__main__item">
                     <span class="serviceCenter__main__item__number">
-                        98 843
+                        <?php
+                            $html = file_get_html("https://sdesk.alibaba.pl/counter");
+                            echo $html;
+                        ?>
                     </span>
                     <span class="serviceCenter__main__item__header">
                         incydentów
@@ -170,29 +172,19 @@ get_header();
         </div>
     </div>
 
-    <div class="section section--service" id="uslugi-handlowe">
+    <div class="section section--service" id="uslugi-handlowe" style="position: relative;">
         <div class="w">
             <h3 class="section__header">
                 Usługi handlowe
             </h3>
             <div class="flex flex--start">
                 <div class="section__images section__images--han">
-                        <figure class="section__images__img--1 section__images__img--1--1">
-                            <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/han1.jpeg'; ?>" alt="uslugi" />
-                        </figure>
-                        <figure class="section__images__img--2 section__images__img--2--2">
-                            <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/han2.jpeg'; ?>" alt="uslugi" />
-                        </figure>
-
-<!--                    <figure class="section__images__img--1">-->
-<!--                        <img class="img" src="--><?php //echo get_bloginfo('stylesheet_directory') . '/img/uslugi-handlowe-1.png'; ?><!--" alt="uslugi" />-->
-<!--                    </figure>-->
-<!--                    <figure class="section__images__img--2">-->
-<!--                        <img class="img" src="--><?php //echo get_bloginfo('stylesheet_directory') . '/img/uslugi-handlowe-2.png'; ?><!--" alt="uslugi" />-->
-<!--                    </figure>-->
-<!--                    <figure class="section__images__img--3">-->
-<!--                        <img class="img" src="--><?php //echo get_bloginfo('stylesheet_directory') . '/img/uslugi-handlowe-3.png'; ?><!--" alt="uslugi" />-->
-<!--                    </figure>-->
+                    <figure class="section__images__img--1 section__images__img--1--1">
+                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/han1.jpeg'; ?>" alt="uslugi" />
+                    </figure>
+                    <figure class="section__images__img--2 section__images__img--2--2">
+                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/han2.jpeg'; ?>" alt="uslugi" />
+                    </figure>
                 </div>
                 <div class="section__text justify">
                     <p class="bold">
@@ -207,6 +199,32 @@ get_header();
                         posiadamy autoryzacje: HP Gold Partner, Fujitsu Select Expert Partner, Cisco SMB Partner,
                         na życzenie klienta dostarczymy dowolny sprzęt,zapewniamy dostawy materiałów eksploatacyjnych, jesteśmy autoryzowanym dystrybutorem oprogramowania Faronics dla działów IT (http://www.faronics.pl).
                     </p>
+
+
+
+                    <div class="section--points__right__person section--points__right__person--faq" style="padding-bottom: 130px;
+    position: relative;
+    transform: none;
+    left: unset;
+    top: unset;
+    margin: 0;
+    bottom: unset;
+    margin-top: 30px;">
+                        <figure>
+                            <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/monika.png'; ?>" alt="person" />
+                        </figure>
+                        <div class="section--points__right__person__content">
+                            <h5>
+                                Monika Rydyger
+                            </h5>
+                            <h6>
+                                V-ce prezes ds. handlowych
+                            </h6>
+                            <p style="text-align: left;">
+                                Dajemy Ci nasze umiejętności, obszerną wiedzę i pełne zaangażowanie…
+                            </p>
+                        </div>
+                    </div>
 
                     <a href="<?php echo get_page_link( get_page_by_title( 'Oferta handlowa' )->ID ); ?>" class="btn btn--landing btn--landing--white">
                         Oferta handlowa
@@ -381,11 +399,14 @@ get_header();
         <div class="partners w">
             <h2 class="partners__header">
                 Poznaj partnerów
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-footer.png'; ?>" alt="logo" />
+                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo.svg?n=1'; ?>" alt="logo" />
             </h2>
-            <figure class="partners__img">
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/partnerzy.png'; ?>" alt="partnerzy" />
-            </figure>
+            <div class="partners__img flex">
+                <img class="img" style="width: 20%;" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/lenowo.png'; ?>" alt="partnerzy" />
+                <img class="img" style="width: 20%;" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/swip.png'; ?>" alt="partnerzy" />
+                <img class="img" style="width: 20%;" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/sens.png'; ?>" alt="partnerzy" />
+                <img class="img" style="width: 20%;" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/rossmann.png'; ?>" alt="partnerzy" />
+            </div>
         </div>
     </div>
 
@@ -448,14 +469,14 @@ get_header();
                 <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/points-img.png?n=1'; ?>" alt="img" />
                 <div class="section--points__right__person">
                     <figure>
-                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/monika.png'; ?>" alt="person" />
+                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/dariusz.png'; ?>" alt="person" />
                     </figure>
                     <div class="section--points__right__person__content">
                         <h5>
-                            Monika Rydyger
+                            Dariusz Padyjasek
                         </h5>
                         <h6>
-                            Usługi handlowe
+                            Centrum serwisowe
                         </h6>
                         <p>
                             Nasi technicy to wyjątkowi ludzie na których zawsze można polegać.
@@ -481,7 +502,7 @@ get_header();
                 </a>
             </div>
             <figure class="man">
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/zespol.png'; ?>" alt="man" />
+                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/zespol.png?n=1'; ?>" alt="man" />
             </figure>
         </div>
     </div>
@@ -493,7 +514,7 @@ get_header();
                     Nasze lokalizacje w 3 Państwach
                 </h2>
                 <p class="map__text">
-                    Posiadamy zespól 150 wykfalfikowanych techników na terenie Polski, Czech i Słowacji
+                    Posiadamy zespól 150 wykfalfikowanych techników na terenie Polski, Czech i Słowacji.
                 </p>
                 <p class="map__text">
                     Tak złożony zespół specjalistów
@@ -514,7 +535,7 @@ get_header();
                         <p>
                             Zespól złożony jest z najwyższej
                             klasy specjalistów w trosce o dobro
-                            Twoje i Twojej firmy
+                            Twoje i Twojej firmy.
                         </p>
                     </div>
                 </div>
@@ -534,44 +555,44 @@ get_header();
         <span id="blog"></span>
 
         <?php
-                $args = array(
-                    'post_type' => 'post',
-                    'posts_per_page' => 4
-                );
+        $args = array(
+            'post_type' => 'post',
+            'posts_per_page' => 4
+        );
 
-                $post_query = new WP_Query($args);
+        $post_query = new WP_Query($args);
 
-                if($post_query->have_posts() ) {
-                    while($post_query->have_posts() ) {
-                        $post_query->the_post();
-                        $post_id = get_the_ID();
+        if($post_query->have_posts() ) {
+            while($post_query->have_posts() ) {
+                $post_query->the_post();
+                $post_id = get_the_ID();
+                ?>
+                <div class="blog__item">
+                    <figure>
+                        <?php
+                        echo get_the_post_thumbnail();
                         ?>
-                        <div class="blog__item">
-                            <figure>
-                                <?php
-                                    echo get_the_post_thumbnail();
-                                ?>
-                            </figure>
-                            <h4 class="blog__item__header">
-                                <?php echo the_title(); ?>
-                            </h4>
-                            <div class="blog__item__text justify">
-                                <?php
-                                echo the_excerpt();
-                                ?>
-                            </div>
-                            <a href="<?php the_permalink() ?>" class="blog__item__btn">
-                                Więcej
-                            </a>
-                        </div>
+                    </figure>
+                    <h4 class="blog__item__header">
+                        <?php echo the_title(); ?>
+                    </h4>
+                    <div class="blog__item__text justify">
+                        <?php
+                        echo the_excerpt();
+                        ?>
+                    </div>
+                    <a href="<?php the_permalink() ?>" class="blog__item__btn">
+                        Więcej
+                    </a>
+                </div>
                 <?php
-                 }
+            }
         }
         ?>
 
-<!--        <a href="/" class="btn btn--landing btn--blog">-->
-<!--            Nasz blog-->
-<!--        </a>-->
+        <!--        <a href="/" class="btn btn--landing btn--blog">-->
+        <!--            Nasz blog-->
+        <!--        </a>-->
     </div>
 
     <div class="section section--references section--noscroll">
@@ -579,7 +600,7 @@ get_header();
             Opinie naszych klientów
         </h3>
 
-        <div class="references w flex">
+        <div class="references w flex" style="align-items: flex-start;">
             <div class="references__item">
                 <img class="img--top" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/cytat.png'; ?>" alt="cytat" />
 
@@ -599,10 +620,14 @@ get_header();
 
                 <div class="references__item__text">
                     <p>
-                        Od wielu lat współpracujemy z firmą ALIBABA Centrum Serwisowe Sp. z o.o. z Łodzi. Jako partner zapewnia nam kompleksową i rzetelną obsługę. Wdrożyliśmy wspólnie szereg rozwiązań które poprawiły funkcjonowanie naszej organizacji. Na co dzień korzystamy z pomocy technicznej która pozwala na nieprzerwaną i stabilną pracę naszych pracowników.
+                        W ramach współpracy ALIBABA Centrum Serwisowe Sp. z o.o. z siedzibą w Łodzi, ul. Św. Teresy 91.realizuje serwis urządzeń do wydawania paczek.
                     </p>
                     <p>
-                        Jesteśmy bardzo zadowoleni z przebiegu współpracy, sprawności działania oraz dobrej komunikacji z pracownikami firmy ALIBABA Centrum Serwisowe Sp. z o.o. Polecamy ich jako profesjonalnego partnera z doświadczeniem i ciekawymi pomysłami, który zawsze rzetelnie podchodzi do powierzonych projektów.
+                        Nie posiadamy zastrzeżeń do profesjonalizmu i każdego innego aspektu działalności którą wykonuje na rzecz naszej firmy ALIBABA Centrum Serwisowe Sp. z o.o.
+                    </p>
+                    <p>
+                        Wyróżnikiem przedsiębiorstwa jest dodatkowo fakt że w obsłudze klienta wykazuje ogromną uczciwość i indywidualne podejście do każdego przypadku.
+                        Oferta firmy jest godna polecenia. Dzięki szerokiemu pakietowi możliwości przedsiębiorstwo jest w stanie zaspokoić potrzeby wielu różnych klientów.
                     </p>
                 </div>
 
@@ -613,10 +638,16 @@ get_header();
 
                 <div class="references__item__text">
                     <p>
-                        Od wielu lat współpracujemy z firmą ALIBABA Centrum Serwisowe Sp. z o.o. z Łodzi. Jako partner zapewnia nam kompleksową i rzetelną obsługę. Wdrożyliśmy wspólnie szereg rozwiązań które poprawiły funkcjonowanie naszej organizacji. Na co dzień korzystamy z pomocy technicznej która pozwala na nieprzerwaną i stabilną pracę naszych pracowników.
-                    </p>
+                        Z firmą ALIBABA Centrum Serwisowe Sp. z o.o. z siedziba ul. Św. Teresy 91, 91-341 Łódź współpracujemy od kilku lat. Uważamy że wszelkie czynności, związane z serwisem produkowanych przez naszą firmę urządzeń, są wykonywane z należytą starannością, dbałością i fachowością.</p>
+                    <p>Na szczególną uwagę zasługują:</p>
+                    <ul style="color: #939393; margin-left: 20px; margin-bottom: 10px;">
+                        <li>Szybkość działania;</li>
+                        <li>Atrakcyjna cena;</li>
+                        <li>Ogromna wiedza merytoryczna;</li>
+                        <li>Indywidualne podejście.</li>
+                    </ul>
                     <p>
-                        Jesteśmy bardzo zadowoleni z przebiegu współpracy, sprawności działania oraz dobrej komunikacji z pracownikami firmy ALIBABA Centrum Serwisowe Sp. z o.o. Polecamy ich jako profesjonalnego partnera z doświadczeniem i ciekawymi pomysłami, który zawsze rzetelnie podchodzi do powierzonych projektów.
+                        Jakość świadczonych usług w pełni nas satysfakcjonuje do powoduje że możemy z pełną odpowiedzialnością polecić usługi ALIBABA Centrum Serwisowe Sp. z o.o.
                     </p>
                 </div>
 
@@ -635,17 +666,17 @@ get_header();
     </div>
 
     <div class="serviceCenter serviceCenter--3">
-        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/vision.jpeg'; ?>" alt="centrum-serwisowe" />
-<!--        <div class="w">-->
-<!--            <h3 class="bigHeader">-->
-<!--                Korzystając z naszych usług-->
-<!--                otwierasz nowe-->
-<!--                możliwości-->
-<!--            </h3>-->
-<!--            <h4 class="smallHeader">-->
-<!--                Cieszymy się że możemy wypełnic swoje zadanie-->
-<!--            </h4>-->
-<!--        </div>-->
+        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/vision.jpg'; ?>" alt="centrum-serwisowe" />
+        <!--        <div class="w">-->
+        <!--            <h3 class="bigHeader">-->
+        <!--                Korzystając z naszych usług-->
+        <!--                otwierasz nowe-->
+        <!--                możliwości-->
+        <!--            </h3>-->
+        <!--            <h4 class="smallHeader">-->
+        <!--                Cieszymy się że możemy wypełnic swoje zadanie-->
+        <!--            </h4>-->
+        <!--        </div>-->
     </div>
 
     <div class="faq">
@@ -702,19 +733,19 @@ get_header();
                     </p>
                 </div>
 
-                <div class="section--points__right__person section--points__right__person--faq">
+                <div class="section--points__right__person section--points__right__person--faq" style="padding-bottom: 130px;">
                     <figure>
-                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/monika.png'; ?>" alt="person" />
+                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/dariusz.png'; ?>" alt="person" />
                     </figure>
                     <div class="section--points__right__person__content">
                         <h5>
-                            Monika Rydyger
+                            Dariusz Padyjasek
                         </h5>
                         <h6>
-                            Usługi handlowe
+                            Centrum serwisowe
                         </h6>
                         <p>
-                            Nasi technicy to wyjątkowi ludzie na których zawsze można polegać.
+                            Wsłuchujemy się w głos naszych Klientów, a każde rozwiązanie jest dopasowane do ich potrzeb.
                         </p>
                     </div>
                 </div>
@@ -823,50 +854,50 @@ get_header();
                 <div class="contact__form__inner">
 
                     <?php
-                        echo do_shortcode('[contact-form-7 id="14" title="Formularz 1"]');
+                    echo do_shortcode('[contact-form-7 id="14" title="Formularz 1"]');
                     ?>
 
-<!--                    <div class="contact__form__left">-->
-<!--                        <label class="contact__form__label">-->
-<!--                            Imię i nazwisko-->
-<!--                            <input class="input" />-->
-<!--                        </label>-->
-<!--                        <label class="contact__form__label">-->
-<!--                            Nazwa firmy-->
-<!--                            <input class="input" />-->
-<!--                        </label>-->
-<!---->
-<!--                        <label class="contact__form__label d-900">-->
-<!--                            Email-->
-<!--                            <input class="input" />-->
-<!--                        </label>-->
-<!--                        <label class="contact__form__label d-900">-->
-<!--                            Temat-->
-<!--                            <input class="input" />-->
-<!--                        </label>-->
-<!---->
-<!--                        <label class="contact__form__label">-->
-<!--                            Wiadomość-->
-<!--                            <textarea class="input input--textarea"></textarea>-->
-<!--                        </label>-->
-<!--                        <button class="btn btn--landing btn--formSubmit">-->
-<!--                            Wyślij formularz-->
-<!--                        </button>-->
-<!--                        <label class="contact__form__checkbox">-->
-<!--                            <input type="checkbox" />-->
-<!--                            Wyrażam zgodę na przetwarzanie moich danych-->
-<!--                        </label>-->
-<!--                    </div>-->
-<!--                    <div class="contact__form__right">-->
-<!--                        <label class="contact__form__label">-->
-<!--                            Email-->
-<!--                            <input class="input" />-->
-<!--                        </label>-->
-<!--                        <label class="contact__form__label">-->
-<!--                            Temat-->
-<!--                            <input class="input" />-->
-<!--                        </label>-->
-<!--                    </div>-->
+                    <!--                    <div class="contact__form__left">-->
+                    <!--                        <label class="contact__form__label">-->
+                    <!--                            Imię i nazwisko-->
+                    <!--                            <input class="input" />-->
+                    <!--                        </label>-->
+                    <!--                        <label class="contact__form__label">-->
+                    <!--                            Nazwa firmy-->
+                    <!--                            <input class="input" />-->
+                    <!--                        </label>-->
+                    <!---->
+                    <!--                        <label class="contact__form__label d-900">-->
+                    <!--                            Email-->
+                    <!--                            <input class="input" />-->
+                    <!--                        </label>-->
+                    <!--                        <label class="contact__form__label d-900">-->
+                    <!--                            Temat-->
+                    <!--                            <input class="input" />-->
+                    <!--                        </label>-->
+                    <!---->
+                    <!--                        <label class="contact__form__label">-->
+                    <!--                            Wiadomość-->
+                    <!--                            <textarea class="input input--textarea"></textarea>-->
+                    <!--                        </label>-->
+                    <!--                        <button class="btn btn--landing btn--formSubmit">-->
+                    <!--                            Wyślij formularz-->
+                    <!--                        </button>-->
+                    <!--                        <label class="contact__form__checkbox">-->
+                    <!--                            <input type="checkbox" />-->
+                    <!--                            Wyrażam zgodę na przetwarzanie moich danych-->
+                    <!--                        </label>-->
+                    <!--                    </div>-->
+                    <!--                    <div class="contact__form__right">-->
+                    <!--                        <label class="contact__form__label">-->
+                    <!--                            Email-->
+                    <!--                            <input class="input" />-->
+                    <!--                        </label>-->
+                    <!--                        <label class="contact__form__label">-->
+                    <!--                            Temat-->
+                    <!--                            <input class="input" />-->
+                    <!--                        </label>-->
+                    <!--                    </div>-->
                 </div>
 
                 <div class="contact__info">

@@ -4,7 +4,7 @@ Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
 Description: Description
-Version: 1.0.0
+Version: 1.0.3
 Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
@@ -92,13 +92,8 @@ a, button {
 }
 
 .topBar__socialMediaLink {
-	width: 25px;
-	margin-right: 20px;
-}
-
-.topBar__socialMediaLink:first-of-type {
 	width: 35px;
-	margin-top: 8px;
+	margin-left: 20px;
 }
 
 .topBar__socialMediaLink--allegro {
@@ -111,6 +106,10 @@ a, button {
 	width: auto;
 }
 
+.topBar__socialMediaLink .img {
+	filter: brightness(0) invert(1);
+}
+
 .topMenu {
 	align-items: flex-start;
 	position: relative;
@@ -119,7 +118,23 @@ a, button {
 .topMenu__logo {
 	display: block;
 	width: 400px;
-	filter: brightness(0) invert(1);
+	position: relative;
+}
+
+.topMenu__logo__image {
+	width: 100%;
+	height: auto;
+}
+
+.aioseo-breadcrumbs {
+	width: 100%;
+	height: auto;
+	padding: 10px 20px !important;
+}
+
+.aioseo-breadcrumbs * {
+	color: #fff !important;
+	font-size: 14px !important;
 }
 
 .topMenu__menu {
@@ -933,6 +948,13 @@ span.topMenu__menu__item::after {
 	background: #fff;
 }
 
+.page--main .section--points__item {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
 .section--points .section__header > span {
 	max-width: 584px;
 	display: block;
@@ -1233,6 +1255,7 @@ form br {
 	box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.15);
 	padding: 25px;
 	width: 30%;
+	min-height: 560px;
 }
 
 .references__item__text p {
@@ -1594,11 +1617,6 @@ form br {
 	margin-top: 50px;
 }
 
-.footer__col__bottom__link:first-of-type {
-	width: 37px;
-	transform: translateY(-3px);
-}
-
 .footer__col__bottom__link {
 	width: 42px;
 	margin-right: 10px;
@@ -1680,6 +1698,7 @@ form br {
 	flex-wrap: wrap;
 }
 
+.single-post .topMenu__contacts,
 .page .topMenu__contacts {
 	display: none !important;
 }
@@ -1825,6 +1844,10 @@ form br {
 
 .landing__main__left--3 .landing--page__points__item {
 	margin-bottom: 15px;
+}
+
+.landing__main__left--3 {
+	margin-top: -30px;
 }
 
 .landing--page__points--3 .landing--page__points__item span {
@@ -2018,4 +2041,89 @@ input[type=submit] {
 
 .single__content img {
 	border-radius: 12px;
+}
+
+.container--404 {
+	min-height: 100vh;
+}
+
+.site-main--404 {
+	min-height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	z-index: 5;
+	background: transparent;
+}
+
+.site-main--404 * {
+	color: #fff !important;
+}
+
+.notFound__header {
+	text-align: center;
+	font-size: 128px;
+	font-weight: 700;
+}
+
+.notFound__subheader {
+	margin: 40px auto 0;
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.notFound__button {
+	background: #fff;
+	color: #2A4759 !important;
+	width: 280px;
+	height: 60px;
+	border: none;
+	outline: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 60px auto 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+}
+
+.container--404 .landing {
+	min-height: 100vh;
+	position: relative;
+}
+
+.container--404 .landing::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+}
+
+@media(min-width: 1500px) {
+	.site-main--404 {
+		margin-top: -40px;
+	}
+}
+
+.container--404 .topMenu,
+.container--404 .topBar {
+	position: relative;
+	z-index: 3;
+}
+
+.blogSection--page {
+	margin: 50px auto;
+}
+
+.landing--page__points__header {
+	max-width: 900px !important;
 }

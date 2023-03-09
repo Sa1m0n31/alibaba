@@ -13,11 +13,11 @@
 <!doctype html>
 <html <?php language_attributes(); ?>>
 <head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="profile" href="https://gmpg.org/xfn/11">
+    <meta charset="<?php bloginfo( 'charset' ); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
 
-	<?php wp_head(); ?>
+    <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -29,26 +29,26 @@
                target="_blank"
                rel="noreferrer"
                href="https://www.facebook.com/profile.php?id=100076471621791">
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/fb.svg'; ?>" alt="fb" />
+                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/fb-new.svg'; ?>" alt="fb" />
             </a>
             <a class="topBar__socialMediaLink"
                target="_blank"
                rel="noreferrer"
                href="https://www.linkedin.com/company/alibabapl/mycompany/">
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/in.svg'; ?>" alt="instagram" />
+                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/linkedin-new.svg'; ?>" alt="instagram" />
             </a>
             <a class="topBar__socialMediaLink topBar__socialMediaLink--allegro"
                target="_blank"
                rel="noreferrer"
-               href="https://allegro.pl">
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/allegro.svg'; ?>" alt="fb" />
+               href="https://allegro.pl/uzytkownik/AlibabaPL">
+                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/allegro-new.svg'; ?>" alt="fb" />
             </a>
         </div>
 
         <div class="mobileMenu d-mobile">
             <div class="mobileMenu__inner">
                 <a href="<?php echo home_url(); ?>" class="topMenu__logo">
-                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-footer.svg'; ?>" alt="logo" />
+                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo.svg?n=1'; ?>" alt="logo" />
                 </a>
 
                 <button class="topMenu__menuBtn d-mobile" onclick="closeMobileMenu()">
@@ -60,12 +60,12 @@
                         <ul class="footer__col__menu">
                             <li><a href="<?php echo home_url(); ?>">Start</a></li>
                             <li><a href="<?php echo home_url(); ?>#o-firmie">O firmie</a></li>
-                            <li><a href="<?php echo home_url(); ?>#centrum-serwisowe">Centrum serwisowe</a></li>
-                            <li><a href="<?php echo get_page_link( get_page_by_title( 'Sieci handlowe i usługowe' )->ID ); ?>">Sieci handlowe i usługowe</a></li>
-                            <li><a href="<?php echo get_page_link( get_page_by_title( 'Producenci urządzeń IT' )->ID ); ?>">Producent urządzeń</a></li>
-                            <li><a href="<?php echo get_page_link( get_page_by_title( 'Branża logistyczna' )->ID ); ?>">Branża logistyczna</a></li>
-                            <li><a href="<?php echo home_url(); ?>#uslugi-handlowe">Uslugi handlowe</a></li>
-                            <li><a href="<?php echo home_url(); ?>#blog">Blog</a></li>
+                            <li><a href="<?php echo get_page_link( get_page_by_title( 'Centrum serwisowe' )->ID ); ?>">Centrum serwisowe</a></li>
+<!--                            <li><a href="--><?php //echo get_page_link( get_page_by_title( 'Sieci handlowe i usługowe' )->ID ); ?><!--">Sieci handlowe i usługowe</a></li>-->
+<!--                            <li><a href="--><?php //echo get_page_link( get_page_by_title( 'Producenci urządzeń IT' )->ID ); ?><!--">Producent urządzeń</a></li>-->
+<!--                            <li><a href="--><?php //echo get_page_link( get_page_by_title( 'Branża logistyczna' )->ID ); ?><!--">Branża logistyczna</a></li>-->
+                            <li><a href="<?php echo get_page_link( get_page_by_title( 'Oferta handlowa' )->ID ); ?>">Uslugi handlowe</a></li>
+                            <li><a href="<?php echo get_page_link( get_page_by_title( 'Blog' )->ID ); ?>">Blog</a></li>
                             <li><a href="<?php echo home_url(); ?>#kontakt">Kontakt</a></li>
                             <li><a href="<?php echo get_page_link( get_page_by_title( 'Polityka prywatności' )->ID ); ?>">Polityka prywatności</a></li>
                         </ul>
@@ -74,22 +74,26 @@
 
                 <div class="footer__col__bottom flex">
                     <a href="https://www.facebook.com/profile.php?id=100076471621791" target="_blank" class="footer__col__bottom__link">
-                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/fb-footer.png'; ?>" alt="facebook" />
+                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/fb-new.svg'; ?>" alt="facebook" />
                     </a>
                     <a href="https://www.linkedin.com/company/alibabapl/mycompany/" target="_blank" class="footer__col__bottom__link">
-                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/linkedin-footer.png'; ?>" alt="facebook" />
+                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/linkedin-new.svg'; ?>" alt="facebook" />
                     </a>
                     <a href="https://allegro.pl" target="_blank" class="footer__col__bottom__link footer__col__bottom__link--allegro">
-                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/allegro.png'; ?>" alt="facebook" />
+                        <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/allegro-new.svg'; ?>" alt="facebook" />
                     </a>
                 </div>
             </div>
         </div>
 
         <div class="topMenu w flex">
-            <a href="<?php echo home_url(); ?>" class="topMenu__logo">
-                <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-footer.svg'; ?>" alt="logo" />
-            </a>
+            <div class="topMenu__logo">
+                <a href="<?php echo home_url(); ?>" class="topMenu__logo__image">
+                    <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/logo-biale.png'; ?>" alt="logo" />
+                </a>
+
+                <?php if( function_exists( 'aioseo_breadcrumbs' ) && !is_front_page() ) aioseo_breadcrumbs(); ?>
+            </div>
 
             <button class="topMenu__menuBtn d-mobile" onclick="openMobileMenu()">
                 <img class="img" src="<?php echo get_bloginfo('stylesheet_directory') . '/img/mobile-menu.png'; ?>" alt="menu" />
@@ -102,24 +106,27 @@
                 <a href="<?php echo home_url(); ?>#o-firmie" class="topMenu__menu__item">
                     O firmie
                 </a>
-                <span class="topMenu__menu__item">
+                <a href="<?php echo get_page_link( get_page_by_title( 'Centrum serwisowe' )->ID ); ?>" class="topMenu__menu__item">
                     Centrum serwisowe
-                    <span class="topMenu__menu__item__dropdown">
-                        <a href="<?php echo get_page_link( get_page_by_title( 'Sieci handlowe i usługowe' )->ID ); ?>" class="topMenu__menu__item">
-                            Sieci handlowe i usługowe
-                        </a>
-                        <a href="<?php echo get_page_link( get_page_by_title( 'Producenci urządzeń IT' )->ID ); ?>" class="topMenu__menu__item">
-                            Producent urządzeń
-                        </a>
-                        <a href="<?php echo get_page_link( get_page_by_title( 'Branża logistyczna' )->ID ); ?>" class="topMenu__menu__item">
-                            Branża logistyczna
-                        </a>
-                    </span>
-                </span>
-                <a href="<?php echo home_url(); ?>#uslugi-handlowe" class="topMenu__menu__item">
+                </a>
+<!--                <span class="topMenu__menu__item">-->
+<!--                    -->
+<!--                    <span class="topMenu__menu__item__dropdown">-->
+<!--                        <a href="--><?php //echo get_page_link( get_page_by_title( 'Sieci handlowe i usługowe' )->ID ); ?><!--" class="topMenu__menu__item">-->
+<!--                            Sieci handlowe i usługowe-->
+<!--                        </a>-->
+<!--                        <a href="--><?php //echo get_page_link( get_page_by_title( 'Producenci urządzeń IT' )->ID ); ?><!--" class="topMenu__menu__item">-->
+<!--                            Producent urządzeń-->
+<!--                        </a>-->
+<!--                        <a href="--><?php //echo get_page_link( get_page_by_title( 'Branża logistyczna' )->ID ); ?><!--" class="topMenu__menu__item">-->
+<!--                            Branża logistyczna-->
+<!--                        </a>-->
+<!--                    </span>-->
+<!--                </span>-->
+                <a href="<?php echo get_page_link( get_page_by_title( 'Oferta handlowa' )->ID ); ?>" class="topMenu__menu__item">
                     Usługi handlowe
                 </a>
-                <a href="<?php echo home_url(); ?>#blog" class="topMenu__menu__item">
+                <a href="<?php echo get_page_link( get_page_by_title( 'Blog' )->ID ); ?>" class="topMenu__menu__item">
                     Blog
                 </a>
                 <a href="<?php echo home_url(); ?>#kontakt" class="topMenu__menu__item">

@@ -20,16 +20,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d973965-f7bb-4483-9a85-edd9ee971d92" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/alibaba/img/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/img/allegro-new.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/img/fb-new.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/img/linkedin-new.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/img/logo-biale.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/img/vision.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/page-blog.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alibaba/page-centrum-serwisowe.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/404.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/footer.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba/img/han2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/img/han2.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba/img/log2.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/img/log2.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/img/land1.png" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/img/land1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/img/land3.png" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/img/land3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/img/landing2.png" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/img/landing2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/img/landing3.png" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/img/landing3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/img/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/img/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/img/zespol.png" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/img/zespol.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/mobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alibaba/single.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/single.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alibaba/page.php" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/page.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alibaba/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/alibaba/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,14 +75,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zimnerzeczy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/alibaba" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\alibaba\alibaba\img" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\alibaba\alibaba" />
+      <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\alibaba\alibaba\img" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\alibaba\alibaba\js" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\alibaba\img" />
       <recent name="C:\Users\sajmo\Desktop\Programowanie\Projekty\alibaba" />
@@ -106,7 +118,24 @@
       <workItem from="1666128192545" duration="69000" />
       <workItem from="1666340660509" duration="634000" />
       <workItem from="1666348000536" duration="683000" />
-      <workItem from="1666640662047" duration="5667000" />
+      <workItem from="1666640662047" duration="5792000" />
+      <workItem from="1666953861458" duration="802000" />
+      <workItem from="1666957621018" duration="662000" />
+      <workItem from="1667067528916" duration="14000" />
+      <workItem from="1667239356628" duration="7000" />
+      <workItem from="1667870823163" duration="1471000" />
+      <workItem from="1667939648257" duration="640000" />
+      <workItem from="1669737719756" duration="1612000" />
+      <workItem from="1672232925525" duration="18000" />
+      <workItem from="1675892558613" duration="636000" />
+      <workItem from="1676329965450" duration="978000" />
+      <workItem from="1676461804049" duration="6185000" />
+      <workItem from="1677068132358" duration="936000" />
+      <workItem from="1678223097576" duration="423000" />
+      <workItem from="1678230691502" duration="33000" />
+      <workItem from="1678230946724" duration="607000" />
+      <workItem from="1678281287262" duration="602000" />
+      <workItem from="1678322314106" duration="2151000" />
     </task>
     <servers />
   </component>

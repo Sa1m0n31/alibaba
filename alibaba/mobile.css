@@ -333,6 +333,36 @@
         bottom: -155%;
     }
 
+    .aioseo-breadcrumbs {
+        display: none !important;
+    }
+
+    .site-main--404 {
+        margin-top: 40px;
+        height: auto;
+        min-height: 1px;
+    }
+
+    .notFound__header {
+        font-size: 48px;
+    }
+
+    .notFound__subheader {
+        font-size: 18px;
+        margin: 20px auto 10px;
+    }
+
+    .notFound__button {
+        margin: 20px auto 0;
+        font-size: 12px;
+        width: 180px;
+        height: 40px;
+    }
+
+    .landing__main__left--3 {
+        margin-top: 0;
+    }
+
     .single .landing {
         min-height: 200px;
     }
@@ -1193,6 +1223,10 @@
     .blogSection {
         flex-direction: column;
         margin-top: -230px;
+    }
+
+    .blogSection--page {
+        margin-top: 30px;
     }
 
     .blog__item {
